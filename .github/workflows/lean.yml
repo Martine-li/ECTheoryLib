@@ -1,6 +1,8 @@
 name: Distribution validation
 on:
   push:
+    branches:
+      - main
     paths:
       - 'ECTheoryLib.lean'
       - 'ECTheoryLib/**/*.lean'
