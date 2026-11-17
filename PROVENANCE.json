@@ -1,0 +1,67 @@
+{
+  "software_name": "ECTheoryLib",
+  "version": "0.1.0",
+  "software_authors": ["Mingfeng Li"],
+  "previous_candidate_version": "0.1.0-preview.2",
+  "baseline_stage": "E07bv",
+  "source_location": "Maintainer-held development archive; commit and record identifiers are retained for traceability",
+  "source_commit": "efc736718620718acfeccc26d66a0d0c0ff80dfb",
+  "metadata_commit": "bb58591d47133f4d7b876c0451994375ee74c832",
+  "formal_lean_files": 432,
+  "formal_sources_unchanged": true,
+  "internal_regression_tests_retained": 193,
+  "complete_internal_suite_distributed": false,
+  "historical_validation": {
+    "finished_at_utc": "2026-11-15T03:38:07.630115+00:00",
+    "checks": 195,
+    "scope": "432 formal sources, 193 internal tests, and the previous Quickstart example",
+    "axiom_audit_declarations": 4619,
+    "result": "passed",
+    "record_sha256": "8402c85433e6d8063f6067fc804ed9091088d63b8ef0dfbc9fb9734d0420e826"
+  },
+  "current_distribution_validation": "Existing candidate evidence is preserved in docs/VALIDATION.md and the unchanged validation/release.json; no new Lean validation is claimed for this metadata-only release preparation",
+  "publication_url": null,
+  "repository_url": "https://github.com/Martine-li/ECTheoryLib",
+  "repository_clone_url": "https://github.com/Martine-li/ECTheoryLib.git",
+  "release_published": false,
+  "publication_date": null,
+  "doi": null,
+  "license": "Apache-2.0",
+  "license_confirmation": "Apache-2.0 confirmed by explicit maintainer decision for v0.1.0",
+  "author_metadata_source": "Explicit maintainer decision for the initial public release",
+  "author_confirmation": "Mingfeng Li confirmed as the software author for v0.1.0",
+  "publication_plan": {
+    "repository": "https://github.com/Martine-li/ECTheoryLib",
+    "clone_url": "https://github.com/Martine-li/ECTheoryLib.git",
+    "tag": "v0.1.0",
+    "release_type": "regular GitHub Release",
+    "prerelease": false,
+    "status": "Repository coordinates confirmed by maintainer; final documentation and metadata precede commit and push, successful CI, then tag v0.1.0 and regular Release publication. The Release is not yet published"
+  },
+  "source_edition": {
+    "title": "Theory of Evolutionary Computation: Recent Developments in Discrete Optimization",
+    "publisher": "Springer",
+    "year": 2020,
+    "doi": "10.1007/978-3-030-29414-4",
+    "comparison_pdf_sha256": "0627558cfb5863b3fc933b6133a7fdd9812a376695043dca1b7f80b50e96af35",
+    "comparison_method": "AI-assisted source comparison; not an independent human audit"
+  },
+  "distribution": {
+    "included": [
+      "formal Lean sources",
+      "fixed dependency configuration",
+      "English reader documentation",
+      "six executable example files",
+      "compact validation summary"
+    ],
+    "excluded": [
+      "complete Tests directory",
+      "internal regression and axiom-audit tools",
+      "historical acceptance reports",
+      "process logs",
+      "dependency/build caches"
+    ],
+    "mathematical_sources": "unchanged from the frozen accepted baseline",
+    "file_manifest": "FILES.json"
+  }
+}

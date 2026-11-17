@@ -1,0 +1,128 @@
+{
+  "version": "0.1.0-preview.2",
+  "status": "passed",
+  "started_at_utc": "2026-11-16T04:00:18.9402452+00:00",
+  "finished_at_utc": "2026-11-16T04:04:35.9356294+00:00",
+  "lean_toolchain": "leanprover/lean4:v4.33.0",
+  "mathlib_revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "distribution_checks": {
+    "formal_library_strict_build": "passed",
+    "published_examples": 6,
+    "checks_completed": 7,
+    "seconds": 256.997,
+    "source_stable": true,
+    "commands": [
+      {
+        "label": "Formal library",
+        "command": "lake --wfail build",
+        "exit_code": 0,
+        "seconds": 82.896
+      },
+      {
+        "label": "Examples/Conditioning.lean",
+        "command": "lake env lean -DwarningAsError=true Examples/Conditioning.lean",
+        "exit_code": 0,
+        "seconds": 92.954
+      },
+      {
+        "label": "Examples/ExpectationConditions.lean",
+        "command": "lake env lean -DwarningAsError=true Examples/ExpectationConditions.lean",
+        "exit_code": 0,
+        "seconds": 15.928
+      },
+      {
+        "label": "Examples/FiniteRangeDrift.lean",
+        "command": "lake env lean -DwarningAsError=true Examples/FiniteRangeDrift.lean",
+        "exit_code": 0,
+        "seconds": 13.247
+      },
+      {
+        "label": "Examples/ProbabilityTools.lean",
+        "command": "lake env lean -DwarningAsError=true Examples/ProbabilityTools.lean",
+        "exit_code": 0,
+        "seconds": 12.625
+      },
+      {
+        "label": "Examples/Quickstart.lean",
+        "command": "lake env lean -DwarningAsError=true Examples/Quickstart.lean",
+        "exit_code": 0,
+        "seconds": 20.158
+      },
+      {
+        "label": "Examples/TailConditions.lean",
+        "command": "lake env lean -DwarningAsError=true Examples/TailConditions.lean",
+        "exit_code": 0,
+        "seconds": 16.157
+      }
+    ]
+  },
+  "internal_transitive_axiom_audit": {
+    "status": "passed",
+    "declarations": 4619,
+    "meaning": "ECTheoryLib environment declarations, including generated auxiliaries; not a count of mathematical theorems",
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "tool_distributed": false
+  },
+  "historical_internal_regression": {
+    "finished_at_utc": "2026-11-15T03:38:07.630115+00:00",
+    "checks": 195,
+    "scope": "432 formal sources, 193 internal tests, and the previous Quickstart example",
+    "axiom_audit_declarations": 4619,
+    "result": "passed",
+    "record_sha256": "8402c85433e6d8063f6067fc804ed9091088d63b8ef0dfbc9fb9734d0420e826"
+  },
+  "internal_tests": {
+    "retained": 193,
+    "distributed": false,
+    "rerun_for_packaging_only": false
+  },
+  "reproduction": {
+    "platform": "Windows x86_64",
+    "dependencies": "Independent local source exports and existing caches at the locked Git revisions",
+    "private_configuration": "Path overrides to those exports in the verification workspace only; published Git locks remain canonical",
+    "fresh_network_setup": "not completed; native Git could not connect through the configured local proxy",
+    "clean_cold_compile": "not claimed; previously checked compiled artifacts were reused",
+    "remote_ci": "not executed"
+  },
+  "ci_action_metadata": [
+    {
+      "action": "leanprover/lean-action",
+      "ref": "ba3fdfe5c4476c925da13bf11a005ddb47e47aee",
+      "url": "https://github.com/leanprover/lean-action/blob/ba3fdfe5c4476c925da13bf11a005ddb47e47aee/action.yml",
+      "blob": "23c76bb437f4611238bd8613ff8bc220ac05f79d",
+      "verified": true
+    },
+    {
+      "action": "actions/checkout",
+      "ref": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+      "url": "https://github.com/actions/checkout/blob/3d3c42e5aac5ba805825da76410c181273ba90b1/action.yml",
+      "blob": "5b0524f730db83f9513c18ab31a6c086c7239076",
+      "verified": true
+    }
+  ],
+  "file_hashes": "../FILES.json",
+  "validation_guide": "../docs/VALIDATION.md",
+  "documentation_checks": {
+    "status": "passed",
+    "relative_markdown_links": 797,
+    "named_library_declarations": 144,
+    "executable_markdown_lean_snippets": 2,
+    "binval_exact_runtime_specialization": "checked",
+    "cff_schema": "1.2.0 valid",
+    "powershell_syntax": "check.ps1 and setup.ps1 parsed under Windows PowerShell 5",
+    "ci_configuration": "YAML, fixed action revisions and supported inputs checked; no remote run",
+    "formal_files_reachable_from_root": 432
+  },
+  "distribution_inventory": {
+    "formal_lean_files": 432,
+    "example_lean_files": 6,
+    "internal_tests_distributed": 0,
+    "internal_tests_retained": 193,
+    "current_file_manifest": "../FILES.json"
+  },
+  "finalized_at_utc": "2026-11-16T04:26:39.524263+00:00"
+}

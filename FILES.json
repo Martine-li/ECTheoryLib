@@ -1,0 +1,2367 @@
+{
+  "algorithm": "sha256",
+  "excluded_self": "FILES.json",
+  "listed_files": 472,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 73,
+      "sha256": "ab1b8f135cbb18a50a9bf945cd61116075bf9de9765014f4b4d3c702f53bbcef"
+    },
+    {
+      "path": ".github/workflows/lean.yml",
+      "bytes": 1398,
+      "sha256": "ed6556c4b75a7d19db262b85c5fbfa73284104d80306d441dfd5d8da2d5625a7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 124,
+      "sha256": "ffbb9b3ace66859107bf05b9eb971fbd2b4e5f0b1e1914cb4036912f9d3f2280"
+    },
+    {
+      "path": "check.ps1",
+      "bytes": 3565,
+      "sha256": "0ace4429b8b468c9a7c041a6547d1ff35a9ba08589cf695b9a8da77e33769212"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 757,
+      "sha256": "2886800977cc1fe878c7bc00cdd263dbd9aea4484987d1ec4fefbd56b5f385bc"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 4143,
+      "sha256": "06562b8a66ae602707ca604e565df5a6daeed36298f88168ab8b5b87acb39c21"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2562,
+      "sha256": "dec5b98469dfd23983b40c82b00798b56703f43ad7d5bd8fd53a07d60cfb65ff"
+    },
+    {
+      "path": "docs/CONTENTS.md",
+      "bytes": 44039,
+      "sha256": "ebc0de3e88454a1d76b823f723ff94340f1195f360fb2d5788255a3998ea0627"
+    },
+    {
+      "path": "docs/COVERAGE.md",
+      "bytes": 52282,
+      "sha256": "1c5c1ee6636b524d92622cb5b5a3236e9941b3d31dc0a9f449a26782ada2f462"
+    },
+    {
+      "path": "docs/LOCAL_DRIFT.md",
+      "bytes": 3322,
+      "sha256": "b9efcc420db1d22677710dcfac47992736fb37b52dadf25414acd6a62eb50ae2"
+    },
+    {
+      "path": "docs/QUICKSTART.md",
+      "bytes": 5729,
+      "sha256": "cdef09304aa7a5c13aa196f507fe975d91172e2e7e0aeaefed7f020516f88f99"
+    },
+    {
+      "path": "docs/SOURCE_NOTES.md",
+      "bytes": 12279,
+      "sha256": "ada36e495ffeae732a071da31c744cae79fc0f25b0e63f7319492c5bb326e4e7"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "bytes": 3327,
+      "sha256": "0b973717f26f7c2a19dafdb519e76d614add16f7e9760bb1d1d653f492580a87"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 5364,
+      "sha256": "f920fb8cda2869c7960340e279e52ddf16ece436c8d383cb70acc2034eabbd2e"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/ArchiveSearch.lean",
+      "bytes": 1714,
+      "sha256": "0d8eb2e761d922998d2e2d5e7458b426ec1c379ef3a0809fc608e2b7668161df"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/CoordinateSearch.lean",
+      "bytes": 2310,
+      "sha256": "6b7ba448c0c41d5212cefc7983b23e5e69ceddfe04eea88124254ff0a0bf1c06"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/FixedPopulation.lean",
+      "bytes": 2585,
+      "sha256": "d3f5002e7c5b9831153f441f14a25e81c1119464d26bcec451149d7c8281416e"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/FixedSizeRLS.lean",
+      "bytes": 1950,
+      "sha256": "d98b9b2edf0d75c31547a0c020fc63432b81a5c186a7475a5eaa888705946f7b"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/GSEMO.lean",
+      "bytes": 4639,
+      "sha256": "ae1564eed5461d86b0dc1888585953f7b2ffc820174290fce895833563c0ee55"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/MultivalRLS.lean",
+      "bytes": 4641,
+      "sha256": "287a83d519effaef649e221b7d12f8d5ef788cb1b92c74138b9f22df7c47a8fc"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/MultivalRLSInit.lean",
+      "bytes": 2094,
+      "sha256": "1df63162a265bd8dd7dd237f76876fbbc02040993aaacadb14b61ac0081fe1bc"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/NSGAII.lean",
+      "bytes": 4217,
+      "sha256": "fcf402343ac900d156a8abd322cd2a440b24399fd2b96ad26a3c8c60bf8175de"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/NSGAIII.lean",
+      "bytes": 16506,
+      "sha256": "ba56af5e0d6b1b901a7e9b899dc3195f89029df1986af5432d061008c8c2442d"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/OnePlusOneEA.lean",
+      "bytes": 4440,
+      "sha256": "1e4f169235728dbf6aea1485b05f8477dea7b3aff5c2e588a5fd9a0647b22537"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/Population.lean",
+      "bytes": 2130,
+      "sha256": "cae775777028f98e89a0c09ba4052969f945f8a90f979e51d8faf2238295cdad"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/PopulationSampling.lean",
+      "bytes": 2475,
+      "sha256": "3f4e8cd4614efbe708556c9ab2cfefc555409a3ddbacfce6c8101c820b396ca3"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/RandomSearch.lean",
+      "bytes": 836,
+      "sha256": "b1b5f7917bb49540c34cc1b8cb326c78a232567cf478e9c967d9c64dfb32290f"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/README.md",
+      "bytes": 3749,
+      "sha256": "3d1acec64cc33f1f60144d477d28a1c94f97507146221f0ea7edfc9f223af7f2"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/RLS/Initialization.lean",
+      "bytes": 1164,
+      "sha256": "90a5d5b9f6fb4f2cd6c6c67c088cde10e7c44240a496edb30c1fc1b17260285e"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/RLS/WithShortcuts.lean",
+      "bytes": 4472,
+      "sha256": "01cabe456e1fa02395556a7919a0d23eca168980b105599bc39608552c32eaa4"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/RLS.lean",
+      "bytes": 6441,
+      "sha256": "e9ae3e9d5da352b04e83f742f1e32b8633e65582b61cd6e9edcb4d29d5c77b25"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/SEMO.lean",
+      "bytes": 5118,
+      "sha256": "021c58258cb2392c7e2ccb202190b66908499ab7e105f53e36cd10b71bad1933"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/SMSEMOA.lean",
+      "bytes": 7621,
+      "sha256": "97bfe274af3c1db7e207bf981548fb04b14c461efa7d4773793d98d9eb1fd38b"
+    },
+    {
+      "path": "ECTheoryLib/Algorithms/SPEA2.lean",
+      "bytes": 8351,
+      "sha256": "fa6b8a2dd3e93f381cc75f1dfdb8f81f998f2d2433d88f5c015df359acad08a4"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/BitMutation/CoordinateMoments.lean",
+      "bytes": 3799,
+      "sha256": "89dab36b1493733f965788fe6c37b1487b7eb44b77b7846d5f70d267c2a46d36"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/BitMutation/HammingExpectation.lean",
+      "bytes": 3874,
+      "sha256": "932bec30253aed05c30817a0631710ad4599088aa4b850d9378727f65130c43b"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/BitMutation/HammingTailBounds.lean",
+      "bytes": 7842,
+      "sha256": "383576e6813188c0056f8a63656d5d82467016bb176f1d36943ff18ba667d8fa"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/BitMutation/LogarithmicTailBounds.lean",
+      "bytes": 5248,
+      "sha256": "13d1706a42421ca742111c41d74ce53e0ea7a4d7ea634c5d8d1980ee218fbf2b"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/BitMutation/RecordedTailBounds.lean",
+      "bytes": 7330,
+      "sha256": "fb596837346e9e811dcbb7c693075daab3c9fd6f467d29dbfbac14d4c2dbecdd"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/BitMutationConcentration.lean",
+      "bytes": 18389,
+      "sha256": "dfd07acbad85aa2669e5d14f1b7d84bb2ab8c77b4c14d964f9165314057cd1b0"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/BitMutationLowerTail.lean",
+      "bytes": 8468,
+      "sha256": "86acd9537b9bcf9d26e455c62bd6e82a45f009117bd377095c5b81356834a5d5"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/CouponCollector/Concentration.lean",
+      "bytes": 17218,
+      "sha256": "d76b372c173b3aa76e9b82516d0d7af0c0ffb5d85c9a4c9c146ca8dd87733969"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/CouponCollector/ExactRuntime.lean",
+      "bytes": 4663,
+      "sha256": "be08bf832af5691e1afabf3c6af400907e7c9fd28ae8a78b3a24d184ce250596"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/CouponCollector/LowerTail.lean",
+      "bytes": 8499,
+      "sha256": "06888b192adcdd54559881201f7efc9b074b3e33ff5e29aed256c50e60b2ce6f"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/CouponCollector/TailBounds.lean",
+      "bytes": 7801,
+      "sha256": "583e3c2d9368c21ebb933bb64012eaea35dd9adcdb201b476d41739da01957ac"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Crossover/SinglePointExpectation.lean",
+      "bytes": 2476,
+      "sha256": "e94831c695a4b5c12b24d5349ad2a83f405166572e31d23f28696d7bab5155fd"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Crossover/UniformExpectation.lean",
+      "bytes": 2561,
+      "sha256": "11a15889b4a4a34b8b022a6ca1aabcd9a04b3b337bc9a1366f13d7b85ec408de"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/FixedSizeBatchCoverage.lean",
+      "bytes": 6299,
+      "sha256": "c0652f71c1182f3a6b613ca6c27e63d21e125efdf0c973c09547d1f1b1207797"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/FixedSizeFiniteVariance.lean",
+      "bytes": 6318,
+      "sha256": "9c6c00716a6b1d61d9c0ab5a1021f7cc26abbb63d5ed397625b44e20c9d32e87"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/FixedSizeMutation.lean",
+      "bytes": 10158,
+      "sha256": "dd060b25608953deecb9365fd82c654b8ad79432200a162b18499ac00fc1e77a"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/FixedSizeVariance.lean",
+      "bytes": 8551,
+      "sha256": "27ef966577be6c31ec028767368b79c908977fa06d9eeadd146e1c78054d13f6"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/FixedSizeWeightedMutation.lean",
+      "bytes": 11011,
+      "sha256": "a71d88925146fb3c997790fa27801801dbe155961479bb81ab1e6f6eb2c7772a"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Jump/OnePlusOneEA/IndependentRuns.lean",
+      "bytes": 3755,
+      "sha256": "8a6a385a6cd13cccdde25052c43148673473c9a8a40407e159d2804509f363c7"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Jump/OnePlusOneEA/PhaseGeometry.lean",
+      "bytes": 7641,
+      "sha256": "83cfaaede4874cfac5442df21b2c36f847c040f0e5e838689ce0aad9bee509d6"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Jump/OnePlusOneEA/PhaseTimes.lean",
+      "bytes": 2458,
+      "sha256": "4d79820b7503b4c149d8c435b4d9722e2034077c3ad7b88166da861621946299"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Jump/OnePlusOneEA/PlateauRuntime.lean",
+      "bytes": 7571,
+      "sha256": "2eeced332a6032f2034798df233d91978e740b334cfa9e4bb01ccf3d2c9c4122"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Jump/OnePlusOneEA/RuntimeBounds.lean",
+      "bytes": 10977,
+      "sha256": "a8ad566ce041f9f6cc2f99b950c94b2f758725a387a5769156bd3fd407b3abbe"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Jump/OnePlusOneEA.lean",
+      "bytes": 571,
+      "sha256": "d4af0247b5e6ab980a141f3f7f70a01db15e015d802be0d96a6d01615e928bab"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/OnePlusOneEA/FitnessLevels.lean",
+      "bytes": 9581,
+      "sha256": "d0e4a97b8f64f63ad52c2a7d79aed20bab432be212fe687728846c076f1f9bbb"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/OnePlusOneEA/RuntimeBounds.lean",
+      "bytes": 2842,
+      "sha256": "ea363eafa5f9a35dec280b0e6dbdfbdab48e6a51e98c3e6820a7d059bfa3d19a"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/RLS/ConditionalInitialization.lean",
+      "bytes": 7878,
+      "sha256": "6f3b8c1c3c7908c0f73d043b6592c301920dcc0d254fdd52f47b7e42387212ef"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/RLS/ConditionalLevelLaw.lean",
+      "bytes": 10287,
+      "sha256": "cd417c890ff8c2b10c8dc28b059380793cb48a6cf316e5ec7f8365a0593178b2"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/RLS/Drift.lean",
+      "bytes": 4885,
+      "sha256": "f9da976ed5b88f6976f8fc1cca00b886b5340f4ee49edfb9451501734862b940"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/RLS/ExactRuntime.lean",
+      "bytes": 4766,
+      "sha256": "28d8bbaa6d3c351ed7d2010757f257e83ca29227924ea155bdfea68d39f3ff27"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/RLS/FitnessLevels.lean",
+      "bytes": 5559,
+      "sha256": "14214d216b09caed6d2254e7441ec6796367503a4988f52526471f720e00341c"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/RLS/Model.lean",
+      "bytes": 1956,
+      "sha256": "cfa5ea9a60d951d1cfaf01643011cd674ec36a392e98bd22c06abf75b6cec426"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/RLS/RuntimeBounds.lean",
+      "bytes": 3388,
+      "sha256": "826c31ea4a71a8ce7ce1057156c5a790ef1b040f965cad19fec54b48b6e9ac13"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/RLS/SuffixSymmetry.lean",
+      "bytes": 9223,
+      "sha256": "e0fb9ba4a0e77ae2e627a7209a576bf05a20bfe12d681cb9345d6b46fa0591f8"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/RLS/TranslatedDrift.lean",
+      "bytes": 18277,
+      "sha256": "6ccd2a454fa336f7b15fddbe3f8f2f67fe974f3531f00b38281b1b48cffdf9a9"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/RLS/UniformInitialization.lean",
+      "bytes": 5952,
+      "sha256": "277458ff598d8f69df7bb5a26e0582c97e6ad61ca6acef91eb3111d54756d3e2"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LeadingOnes/RLS.lean",
+      "bytes": 433,
+      "sha256": "930de889a9fdab41df23ad1e305d3af6779befa5a6b9ca6f567a79188e265770"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/MutationVariance.lean",
+      "bytes": 7490,
+      "sha256": "8e613a1f1c73869c83dc280127026c7bc858e50bf2dc7ab4b32b103e15c10464"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/OnePlusOneEA/AcceptedMutation.lean",
+      "bytes": 14084,
+      "sha256": "d0172e26d50c49c5761cb1464c6c6330b519310c0cde89eaab52c9b52b5ff3af"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/OnePlusOneEA/AsymptoticRuntimeBounds.lean",
+      "bytes": 7481,
+      "sha256": "508a77474739caec5b560cbf2a9b44957936f589a30306c46415713bd30968e6"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/OnePlusOneEA/BinValDrift.lean",
+      "bytes": 10255,
+      "sha256": "73f2e5c1d34d36c90b240e2a1886975bb7e8810e5dee59be15868e8dfd98f445"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/OnePlusOneEA/CountDecrease.lean",
+      "bytes": 10419,
+      "sha256": "5fc7034e14a6214e6587f9f7d0446b4bbcd0be41c08c7f20bd2b1dedd4086fd0"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/OnePlusOneEA/RankPotential.lean",
+      "bytes": 11547,
+      "sha256": "64cdf3503c4f98793bf96e9638598b18f052b1a50e87a8c136f32140b1e886a4"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/OnePlusOneEA/Reindex.lean",
+      "bytes": 6527,
+      "sha256": "dfacba1b1085339795a8dd738a4dd271c3bea14c028dd6c4475812e375cc2d4e"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/OnePlusOneEA/RuntimeLowerBounds.lean",
+      "bytes": 18304,
+      "sha256": "357c7ba95d3af9a329e5162063aeef0fce48f3c15613af673dde74d9150a7345"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/OnePlusOneEA/RuntimeUpperBounds.lean",
+      "bytes": 8894,
+      "sha256": "a269473eda7b07dbaeba5f7c9809ce8fcb369134c90b6ed07a3d15de79b6e357"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/OnePlusOneEA/SortedRankDrift.lean",
+      "bytes": 58035,
+      "sha256": "e791009a75cd3155d08f5d8c8927e39a0dea4ab79221a3c7d411da3c8a73c17f"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/OnePlusOneEA/TailBounds.lean",
+      "bytes": 10538,
+      "sha256": "5d5296e6eb563ca7e83d19585145c7355c1eb91d3a4a66caf2f6ecc4ed1ab127"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/OnePlusOneEA.lean",
+      "bytes": 3108,
+      "sha256": "64337ba5ccd60c0ff556c53f9b1e583479a5bd88e59b2e93e202f1f161471ab1"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/RLS/BinVal/ConditionalPositions.lean",
+      "bytes": 12817,
+      "sha256": "ea925136f55e1287de430ea4823df3b423f59914a5dfc543334cddfec89969ba"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/RLS/BinVal/UniformInitialization.lean",
+      "bytes": 9341,
+      "sha256": "31f4ef1655242ad800690604f18a3195df25975c7ab42a6c0e48845610e6fa14"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/RLS/BinVal.lean",
+      "bytes": 22020,
+      "sha256": "4912272f2cc72a29c56270b1565a2724796d6a7e7f728582d6346d12a33247c3"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/RLS/CoordinateSymmetry.lean",
+      "bytes": 5509,
+      "sha256": "2a9283b1a001bc331487e60bb66ff8a42c83137568482aad68c6bcb1d2c17778"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/RLS/FitnessDrift.lean",
+      "bytes": 4289,
+      "sha256": "21f301e7405370ffc944399ce10417a8ea175ddd7b936aa0440b9418d3ae042a"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/RLS/PositiveWeights.lean",
+      "bytes": 11571,
+      "sha256": "c490b3907e5fdbd112e019c3a3c78c0249331c4cb45bc75e9db0ea8393d6ddd0"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Linear/UniformInitialization.lean",
+      "bytes": 2361,
+      "sha256": "99f2270f54646f8b8a19c16d58fc5b5ee3139dc82a2064592100b17afff69968"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LOTZ/Archive/RuntimeBounds.lean",
+      "bytes": 8998,
+      "sha256": "4b1449b86f9a15bc3faa3be54c951a34f0d41fd7084da688b86b065f69948aea"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LOTZ/ArchiveCoverage.lean",
+      "bytes": 10617,
+      "sha256": "385b056b7099f2fc1d4a6813e44d8c4767e5922d980710847a1b3753d28bc0f7"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LOTZ/GSEMO/RuntimeBounds.lean",
+      "bytes": 4054,
+      "sha256": "5f6e9f3df38b5771bb081faa709a03ac1ad94bc879da440dbeb18c370d88fc92"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LOTZ/OneBitProgress.lean",
+      "bytes": 6917,
+      "sha256": "fb66197ac1a255373b4827b7902ba72e9bd9276ea0988ecc8c962c8e6567b035"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LOTZ/SEMO/RuntimeBounds.lean",
+      "bytes": 7722,
+      "sha256": "90f8201c229f94191d6791ffbf292567666f866e58ac45651c95e9b2fa55dae9"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/LOTZ/SEMO.lean",
+      "bytes": 315,
+      "sha256": "625e8d508ecd8721b13b373e73b9391ceadf2b7773e07b100db9be146fa63230"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/BinarySpecialization.lean",
+      "bytes": 10276,
+      "sha256": "fb290c81b0a01155f3708aaee8cf24e4e5ca233667455edff90179886391ffb5"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/Drift.lean",
+      "bytes": 4668,
+      "sha256": "79bffb5bf893ed723cbd0b2feeb8f06f1e9ef0b29016c1fdaa03836699643639"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/ExactRuntime.lean",
+      "bytes": 6296,
+      "sha256": "d52e53fa60ed1f8c3b1bd4039ee02163fd2ef4c2fbe591366694f38590595923"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/HarmonicDrift.lean",
+      "bytes": 10631,
+      "sha256": "5a67b7db3ffcb4f92cb356049dfb4eb7f6cf94ade3d84f5d181d55be8d71d04f"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/InitializationConcentration.lean",
+      "bytes": 2296,
+      "sha256": "48744de648ec2366e8a6f79b4d45b559bcdcb500b9873744b9e69f62a337110e"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/InitializationConditionalExpectation.lean",
+      "bytes": 2399,
+      "sha256": "9fb1ef7da5e6609516d1f098102e3ac110112db7821662802874fec149e2c9d2"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/InitializationConditioning.lean",
+      "bytes": 4368,
+      "sha256": "c4121fcc96a2a79e3235dc0fb7d77d760629a37282b4ce4fa03c883451af8939"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/InitializationDomination.lean",
+      "bytes": 3295,
+      "sha256": "eda458430d1855e68591ac51ae45d82a92b6b0607fe4fc164f6816e446fb1376"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/InitializationHoeffding.lean",
+      "bytes": 3131,
+      "sha256": "895494ab2dc711b749fe713573e799f3266380591522d64070c7e4266d4c8cf6"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/InitializationOneSidedConcentration.lean",
+      "bytes": 2512,
+      "sha256": "33d7be7a7fcf46d284b043b392a8910041afc525154b632e65faf2ee87f164bf"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/InitializationRareEvent.lean",
+      "bytes": 4691,
+      "sha256": "c834df1a25bd2c8901416ada9cc056bb7a273083dc68d9a3d4474773355e30ad"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/InitializationTargetProbability.lean",
+      "bytes": 3677,
+      "sha256": "ee48a6fe715356fc399fe67dbe9e990792eb60e87404a6573f108e8c72194072"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/UniformInitialLaw.lean",
+      "bytes": 5839,
+      "sha256": "bf101cb5e7ec4041999124f5a0372e5226b9e7f9e79e4a5e222af48352639c53"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS/UniformRuntimeBounds.lean",
+      "bytes": 7796,
+      "sha256": "7a7ee400d8eef99515eac47325560716ea2c628319aac965d2f62ed98c8590ce"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/MultivalOneMax/RLS.lean",
+      "bytes": 1260,
+      "sha256": "babb43be2a273d27bf6ba325e97324287c49860eba7a4f1781de972f7ff4abae"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Needle/OneCommaOneEA/RuntimeLowerBounds.lean",
+      "bytes": 5066,
+      "sha256": "bf93dec101aa04b8c51dd1c1318fc6235f23f7b554f4ed36c7331c63c5cf604c"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Needle/OnePlusOneEA/Drift.lean",
+      "bytes": 2505,
+      "sha256": "427f105e4ff17f19803311079a62b29bbc7114e490ca0b818ecf9b7e8e2434b1"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Needle/OnePlusOneEA/ExponentialHorizon.lean",
+      "bytes": 2218,
+      "sha256": "40cc9c6b8896d98fc3060a5dbe14b9ad84122898b70336bd88827ec7cb2a2018"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Needle/OnePlusOneEA/GeometricJumpLowerTail.lean",
+      "bytes": 4169,
+      "sha256": "eb8f8aac2fe084a0f45633e168e437a85d274f2bb2b917749dd03c2031246ff4"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Needle/OnePlusOneEA/Model.lean",
+      "bytes": 3799,
+      "sha256": "4a48ffb837dce52bc3c46a4ecf0d628a3a1df4f30ab21f247dedcf99552202dc"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Needle/OnePlusOneEA/RuntimeLowerBounds.lean",
+      "bytes": 5270,
+      "sha256": "e59c5c970b188e465d9d92b8019e9ac13d4a944e734e3712d6056de3a21ea054"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Needle/RLS/BoundedNegativeDrift.lean",
+      "bytes": 6941,
+      "sha256": "22b2f503b27a23f5e7b8621fda7001002b0290f1109c2a82da95fcb5c8a4f927"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Needle/RLS/ExponentialMoments.lean",
+      "bytes": 5505,
+      "sha256": "f1313fd8650e0e1457ab92b5b1687dfd53e4942d94294c0f3bae554eb86012fb"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Needle/RLS/Model.lean",
+      "bytes": 2891,
+      "sha256": "7bde6a88db654e20fea2f3f5eb5e856195cdae7dee75e9baceba726c6001a723"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/Needle/RLS/RuntimeLowerBounds.lean",
+      "bytes": 6532,
+      "sha256": "733e2a5466e5991877a31f355b6b003407ad0a5d06ca1e6bbb47cecdddd174c0"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/BitFlip.lean",
+      "bytes": 2690,
+      "sha256": "1e9d14150e8591d494616c1840419d7ba56705a382940930777d3b503e9098bf"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/CoordinateSearch/RuntimeBounds.lean",
+      "bytes": 5785,
+      "sha256": "229f47b103b36f624c1575f6de20193e80d46fad3237d1e961ec63038b0bc171"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/CoordinateSearch.lean",
+      "bytes": 343,
+      "sha256": "66f0a01c9cc22105bef30a64f6e956f20a28b1e1d8e99cc59a74167efc635e69"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/ElitistBitFlip.lean",
+      "bytes": 3281,
+      "sha256": "c6b6331218788c45ff3f07cbadd71f810bf32ba9400b545464d34ed066e3db66"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/MutationAdditiveConcentration.lean",
+      "bytes": 1896,
+      "sha256": "39866d8b7df663daa61d174199399463b154a35dc4ab8f12b1733a13a7c8a7bb"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/MutationAdditiveLowerConcentration.lean",
+      "bytes": 2890,
+      "sha256": "10535c0ff560a4d6c237d6d47ee7a6923686e7fe1806de21c95df531134863a6"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/MutationDomination.lean",
+      "bytes": 6544,
+      "sha256": "6c678891dc94b163a7956d2127fb77bab700d0d928ef761a221c96fed00e1746"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/MutationExpectation.lean",
+      "bytes": 4143,
+      "sha256": "0b992d6b8eaab13abc9c8a2f35d920f0b567c8ac6fbdb5fcec2a4a3f7758ea40"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/MutationFiniteAdditiveConcentration.lean",
+      "bytes": 1904,
+      "sha256": "38d5d3e5170ef710b1e5501853b6ccde52e6a5df8a76820ff0febc9dd4a63925"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/MutationFiniteVariance.lean",
+      "bytes": 2592,
+      "sha256": "10b946a0873e1aa72e9fde8063917783cddb337e749b5d43526e709bb7d38eb5"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/MutationMeanLowerConcentration.lean",
+      "bytes": 2826,
+      "sha256": "68dbebd6c3743f8bc1712994f84fa6cce0406449a30df0ec59aabcfe192a57cd"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/MutationMeanUpperConcentration.lean",
+      "bytes": 2476,
+      "sha256": "3d6194cff2b4f26edd1bf3b306cc923abc4e063e8f24cfaad14adf0ca8636277"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/MutationRelativeConcentration.lean",
+      "bytes": 1963,
+      "sha256": "1661b81828a8dae5498a3729cc4f4d8e2825dfab61ccc576d05ca1fd6356c669"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/MutationTailSum.lean",
+      "bytes": 2322,
+      "sha256": "ed1b12d0d52ff22be6d09dca2bbbdedb551bf0c8c40bcaf3f4df9aa0ee90de8d"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/MutationVariance.lean",
+      "bytes": 6780,
+      "sha256": "7aba153a97f2a34125bad0bb0df1553b8dd3b77d39f3ec668f475f0f5cc60653"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/OnePlusOneEA/AcceptanceExpectation.lean",
+      "bytes": 4685,
+      "sha256": "0f214c00027ff143e15b146d4f672b5dcb3cb88a8b38a6c8427963ccd02ee601"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/OnePlusOneEA/Drift.lean",
+      "bytes": 7091,
+      "sha256": "858e36be0d92430900119e823b85dee5ea544c73de3f67fc39623db6eb83b8a5"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/OnePlusOneEA/FiniteVarianceTail.lean",
+      "bytes": 2571,
+      "sha256": "41fe5148d6522f04611bf1d9827a3f8cdf6324435b4c49cafad6b9e2f3f37b6b"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/OnePlusOneEA/FirstStepLowerTail.lean",
+      "bytes": 1947,
+      "sha256": "0d5268a3cfdf1491a29b098c874fc9265d02449a46b577f3757b49dcf0ade7c4"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/OnePlusOneEA/GeometricTailBounds.lean",
+      "bytes": 5227,
+      "sha256": "15bee4d99145dd6a68ada2f5d1a3be0c06961157c253d331b66cfce5cec2e4b2"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/OnePlusOneEA/MutationTailBounds.lean",
+      "bytes": 9148,
+      "sha256": "56ab71b2a42f1308fd547f15efed3b48c6358b551390b893f32527f372ed5de7"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/OnePlusOneEA/RuntimeBounds.lean",
+      "bytes": 5296,
+      "sha256": "934ec39a16c20ecee8cfee385926750ea406cdfbd84e71c72d5018f6f79a7f89"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/OnePlusOneEA/SelectedScoreConcentration.lean",
+      "bytes": 7481,
+      "sha256": "338c99276b4667ee9e23b8525a37177a6076ab59df6bb1498091b27c55ceb236"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/OnePlusOneEA/StochasticProgress.lean",
+      "bytes": 4321,
+      "sha256": "21820d4bbd630a039017889e37b1bcc7ea2de82f1a150afe9ae1c77409f4a719"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/OnePlusOneEA/VarianceTail.lean",
+      "bytes": 2611,
+      "sha256": "87914caf885b305ce6b91cf378d066b5b2ecda347ce5ba542f62dc1805a89455"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/OnePlusOneEA.lean",
+      "bytes": 935,
+      "sha256": "36736a5f7d4fd91e1ffa016f41e8798dd04c9698f08675d7bac5485b8d773770"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/AccumulatedPotential.lean",
+      "bytes": 6442,
+      "sha256": "307c8a28eace3a3ce7b8216ec69a07a4280d704d589686d7889ab34a0107b1b3"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/AccumulatedPotentialBinomial.lean",
+      "bytes": 8219,
+      "sha256": "1182cd2428937e10213178dd4628bb708599086e1ffd23d9c059d5e87976bf4a"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/AccumulatedPotentialTailBounds.lean",
+      "bytes": 2276,
+      "sha256": "8c3e579b8747b9ed10d7429f355e9daadce1a96a3f219bd9b8ceee412ccd4609"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/CompensatedConcentration.lean",
+      "bytes": 4957,
+      "sha256": "2ac03ed7d6c1c493ed761b536a8573b0c27306c6f2bbf15d992faf06cc47f7cd"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/CompensatedProgress.lean",
+      "bytes": 4084,
+      "sha256": "4803488b4ab07e0867251cee928559c0fc46384d4aae305c9f35ed1e378ee23e"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/ContinuousLowerTailExpectation.lean",
+      "bytes": 6590,
+      "sha256": "048bc8391d864e3ab5f95bf2e62182bad2aa2a48ddecbcd72042fc70d689be39"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/ContinuousTailExpectation.lean",
+      "bytes": 4963,
+      "sha256": "c9f8bcaa6b4c9f34234ffeed51b5dd9e0469afe67893131d689f3f2c8fb6e641"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/Drift.lean",
+      "bytes": 5436,
+      "sha256": "10b6d0bf5b56d1d46c1ab8421949cd2cbf158d2cc51964811a364c412b20d765"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/ExactRuntime.lean",
+      "bytes": 2984,
+      "sha256": "ffd01ff5ea0d6cebda62957c116dc7e876c47cf7ec4eb9163dbffd607cc525aa"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/ExponentialLowerTailBounds.lean",
+      "bytes": 5179,
+      "sha256": "26916df5d9d1cf3b462f50147945d8947c1c2189f70c9dfab741a76b51a46ee1"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/ExponentialLowerTailExpectation.lean",
+      "bytes": 3848,
+      "sha256": "d2789257482b6ed883c962c5ba7a3790e46539ef9d143aa4e38571181e276590"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/ExponentialTailBounds.lean",
+      "bytes": 12231,
+      "sha256": "fa53e3b0ba9d91d72f132a4865892ff524a17db2f5cb52f90d4d475b244518f9"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/FitnessLevels.lean",
+      "bytes": 5809,
+      "sha256": "f0823f0fd0c9e0d6c64f5b872ee44a9f7476652217c89206516e343314fce5dd"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/GeneralExponentialLowerTailBounds.lean",
+      "bytes": 6216,
+      "sha256": "c494814ee0047b0d831b58f350382264664a8541a5a0e68c763fb15f2ce192fc"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/GeneralExponentialUpperTailBounds.lean",
+      "bytes": 4559,
+      "sha256": "6c75dea2c0a1120b1e2cde10e6608e2c1ba642c54769b36f7c6210f011ca6dfc"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/GeometricLowerTailBounds.lean",
+      "bytes": 10880,
+      "sha256": "d72afe9c2a388aafd09fb0abb5671e575868ea5350303784fdad260f05cfb80c"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/IndependentRuns.lean",
+      "bytes": 5369,
+      "sha256": "f520fca726229c4e3e06c9dcbe6f3f328ad498e33f735b887f2fb28130268f35"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/LastBitRuntime.lean",
+      "bytes": 9768,
+      "sha256": "6d222805cd6181b3171081d4d8113ec895c7a5fa9e7010c63093951c6b6eb75d"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/Model.lean",
+      "bytes": 4925,
+      "sha256": "f2311833a797223c4f3fcd40ae21b094ede7f3e7cd8389827393ae1e8a6a8ee8"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/Quantiles.lean",
+      "bytes": 3444,
+      "sha256": "f32c0f23cfd976c016bb27e7c18a7aba328997f971142dcb3223eec7a77f4a81"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/RuntimeBounds.lean",
+      "bytes": 3760,
+      "sha256": "81ad107ad53fa111282b3f377bbeef4f538d58025ad01878f9304e8cb5ccbdc9"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/RuntimeJumpLowerBounds.lean",
+      "bytes": 6467,
+      "sha256": "eba230bd6907a468df4d9912149ba126912e545522f0b382c51413656b76afeb"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/RuntimeLowerBounds.lean",
+      "bytes": 7487,
+      "sha256": "67f2d619e67a0f1567e47619bd44fb160895313a64679ff3ba86c791878820a5"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/RuntimeMultiplicativeLowerBounds.lean",
+      "bytes": 10931,
+      "sha256": "c9c722fb7de05a5db3dd7175995313728bd4b53b8a792fed6a44f570272d0b1e"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/StochasticProgress.lean",
+      "bytes": 8767,
+      "sha256": "792ad57382f4471b75a53b103c2980a0c6a4358f03ee03ac4feac2a92b59dfc0"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/TailBounds.lean",
+      "bytes": 12855,
+      "sha256": "1c50d4abfdc9ef11a5539214582cf2aecde7cb19d435731c8d77c5173420f012"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/TargetContinuation.lean",
+      "bytes": 3995,
+      "sha256": "5f3d709f6cdf8de180c462f711061f4d6912abe5f228ead6baae69c7801306b2"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS/UniformRuntimeBound.lean",
+      "bytes": 13561,
+      "sha256": "1e7f7f0a3ac900df401e17f4a93edef4f403c50ecf4832e6d177ba170532105a"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLS.lean",
+      "bytes": 1975,
+      "sha256": "bc7125f75584a0c6c87c055e3de1a69047f41efe35f8a7ab0de6cb332c4cbfa0"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLSWithShortcuts/Drift.lean",
+      "bytes": 18850,
+      "sha256": "f96a5c8ce4cdb31345a11e4f751888a30e2a166665b50efda3bcfcd3e0dff602"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLSWithShortcuts/RuntimeBounds.lean",
+      "bytes": 7912,
+      "sha256": "cb8894ea3940cadadf3004685ad857551fa3ac82b9c2b0ef19defa4e96aaa342"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLSWithShortcuts/RuntimeLowerBounds.lean",
+      "bytes": 13430,
+      "sha256": "e8562dabe3aef87c6c8dd2cd9ad437cd282c49f013bd617224a9975c4a3668fa"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMax/RLSWithShortcuts/UniformInitialization.lean",
+      "bytes": 8837,
+      "sha256": "ee7f54666790d1bc64dc516faa076d08699b9e76f942e7d7c1e55d946a04097b"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/Archive/Coverage.lean",
+      "bytes": 8549,
+      "sha256": "aeed403facac7fb9f2b050764832b25289433f33e8b30da698c23a5412124dae"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/Archive/Drift.lean",
+      "bytes": 7024,
+      "sha256": "4db3ae6c3132acc0611817a05bc3b32d462f19d24ce155921e21383e15341f51"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/Archive/PreferredParentRuntime.lean",
+      "bytes": 5756,
+      "sha256": "5b76409cdc11b810c1e7ba42d116eb56039a64623cb4c8fa1794755b9e6082a8"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/Archive/RuntimeBounds.lean",
+      "bytes": 5731,
+      "sha256": "c51f1f96021bc77838c3c304fcdecf962d2b0405925a7f4eaa921cebda03d795"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/Archive.lean",
+      "bytes": 507,
+      "sha256": "e862b0c3816986ec82c0820c33c7d09021424b259ef19fdd533491e5f29a5c8e"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/GSEMO/RuntimeBounds.lean",
+      "bytes": 4849,
+      "sha256": "6d54d20c92ada7a65bd6656dd44cce648bc8b64ce0b7eb37f183df20e928a22f"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/GSEMO.lean",
+      "bytes": 327,
+      "sha256": "4a8b42c0a9b8b684ba15bf30fe6a7845ba34b4d15390e9a5f0d54fe4eb2f0c85"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/NSGAII/CoverageDrift.lean",
+      "bytes": 7804,
+      "sha256": "44bb78ddd4edc9cdf8b59099a6a6a8e60ddecbff54d4673b6b8c9495749eef7f"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/NSGAII/CoverageState.lean",
+      "bytes": 7586,
+      "sha256": "d5f50e6355619d5aab567025a954f71faf1887f7becb07aeea10c551aa9163d3"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/NSGAII/CrowdingRetention.lean",
+      "bytes": 7303,
+      "sha256": "bfadfa3bf9ae99b0135b42ec7ee90d8fde14b5e03e2279d897a46ba4bac515f3"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/NSGAII/RuntimeBounds.lean",
+      "bytes": 9960,
+      "sha256": "3c0d8e6aaacc790c6a6f53a87c211221ed207e281dce7b29136fdbdb8f3e456f"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/NSGAII.lean",
+      "bytes": 510,
+      "sha256": "7d8691caf7bbcc7e940cf8f58aea5f6bcb301bd543835dbea40bf5f3221cf401"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/SEMO/RuntimeBounds.lean",
+      "bytes": 4217,
+      "sha256": "9323f6732bff72c18a564a001de672b597647b18f6e6c2ae686ad90b15356748"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OneMinMax/SEMO.lean",
+      "bytes": 325,
+      "sha256": "8b4782c7b2173ff40acb6e7ca43e587d64ee993c73573b91b9ca41809099908b"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/OnePlusOneEA/UniversalLowerTail.lean",
+      "bytes": 9465,
+      "sha256": "bc42b42a58e53c6cd85a96026caaf57924e29bc89988cb42f09520d00978029e"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomDecline/CountDrift.lean",
+      "bytes": 2163,
+      "sha256": "fb3bd294a1e92042e8109f9d181127584c77f90555c1a81fb29cb39c645b4e2b"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomDecline/LogarithmicDrift.lean",
+      "bytes": 11234,
+      "sha256": "5e74d191fd5a57bd71e11413c47c1351f2b15e5831e158b13b05a88085f851d2"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomDecline/Model.lean",
+      "bytes": 5029,
+      "sha256": "ce4f211a2411c44468cb7ebd86e6a60f549895fe10203c8fc013fb6c288183bb"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomDecline/RuntimeBounds.lean",
+      "bytes": 7294,
+      "sha256": "81bb7d38baa6c07afe59c6e7311e8e7890c97a7e0a7d289f150d2ddf31257472"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomSearch/CountableExactRuntime.lean",
+      "bytes": 8528,
+      "sha256": "1dd511899421f0370f046222308ba271d4e0f59b57000860e245e3c2df0af1ba"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomSearch/CountableRuntime.lean",
+      "bytes": 4881,
+      "sha256": "ecab104f5bdfa239519bb50fe5964347cc251c855495d68e51ccee982652fd17"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomSearch/ExactRuntime.lean",
+      "bytes": 4658,
+      "sha256": "b87cdaf2878c8901229d21d11d9288331c503546b83e11618776ce8015c15f8c"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomSearch/GeometricPotentialTail.lean",
+      "bytes": 15429,
+      "sha256": "ad5c6b2b80533db94af3280c4d76f9cb4d288659c7983355c64d058d7966882c"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomSearch/MultiplicativeLower.lean",
+      "bytes": 4016,
+      "sha256": "862fbd4f0441565798ee25e65604d85f11764ad32b7d0a535f9561d2ca507c98"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomSearch/PathPotential.lean",
+      "bytes": 9211,
+      "sha256": "8decaf3d1cde998719a39feda118e31a4780a9ac5933ebdea1487dbaba000a5a"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomSearch/PositivePartLower.lean",
+      "bytes": 10456,
+      "sha256": "2e26baef8532b923c9e8ae441915f2382c7b81c1eef70edd734fd126fd2c1602"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomSearch/RuntimeBounds.lean",
+      "bytes": 6586,
+      "sha256": "e5d83d1123bfd15ae5ddfa3c66f956e0aa00a9bec4e184a7a618aa7bcf3dc8ff"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomSearch/TailBounds.lean",
+      "bytes": 4198,
+      "sha256": "3eb5a49d1f3c9ceb6b142341cedd5545ba7c8cb5db8a280ea16c663b2f99a2d5"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomWalk/ExcursionBounds.lean",
+      "bytes": 3008,
+      "sha256": "0a61039730d8537f1e43aba5c65f6ade7b184c13abf86ed77f00311e8b7d6dcf"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomWalk/ExitRuntime.lean",
+      "bytes": 3198,
+      "sha256": "4646ac61f843e051b50e1ae5264de5553f17e1943f9f247d1c06103f48c1a6ea"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomWalk/WeakDriftRuntime.lean",
+      "bytes": 2634,
+      "sha256": "1dba15bd321d338eca2fdc6b577700d997d97c470f98a6c02deb1f29456bd700"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/RandomWalk/WeakDriftTail.lean",
+      "bytes": 10250,
+      "sha256": "db47361df34deaa971e1e76e4a763d07c158eeb200a8c6dec58b2b80ec5eef5f"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/README.md",
+      "bytes": 1625,
+      "sha256": "907901370f346723f922bb4ee7da8f67ea956731b71f17505f248af1f40e1324"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/ReflectingBiasedWalk/RuntimeLowerBounds.lean",
+      "bytes": 5058,
+      "sha256": "703bd5546f06f2e4acf8377792375e99949eaa1a188ab3f4ffbfaaf1add12587"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/TargetOneMax/OnePlusOneEA/MutationExpectation.lean",
+      "bytes": 2591,
+      "sha256": "6c7741af8fb838efff655bd98514ec5f92d511d382f92fa64812f9577ddb94e6"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/TargetOneMax/RLS/Drift.lean",
+      "bytes": 6968,
+      "sha256": "3df4abf1e111d0c0d6f2f1a9a50f0c2b6b1910b66a48caa458df93768b321301"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/TargetOneMax/RLS/ExactRuntime.lean",
+      "bytes": 5137,
+      "sha256": "374851117ccbe774ad5aaedb8070bc186700138ee6099e5ce3305f04e12eddd1"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/TargetOneMax/RLS/HarmonicDrift.lean",
+      "bytes": 6879,
+      "sha256": "22e79233face227afc8a8356b86e6d47ec662ab5ef481222bd5d2df341854a06"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/TargetOneMax/RLS/InitializationHoeffding.lean",
+      "bytes": 2609,
+      "sha256": "12e7a24cfec2d9a34b1da9b06ddc5887268d3078b3789ade1ee68a746088f38f"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/TargetOneMax/RLS/RuntimeBounds.lean",
+      "bytes": 4987,
+      "sha256": "7c5011c8cf90e1c6d6dfcf767efcc4adea508eb17d25e72ab815aaf353364577"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/TargetOneMax/RLS.lean",
+      "bytes": 567,
+      "sha256": "38fe52e639d033bdf2ddc7dac5f79e9f36ae644c13d41c99657d7916380f9837"
+    },
+    {
+      "path": "ECTheoryLib/Analysis/UnboundedBiasedWalk/RuntimeLowerBounds.lean",
+      "bytes": 6152,
+      "sha256": "1bd6199faad3a1db2b252ba8b268d0d3c902345e1db580f5d5e0f1fef43bd004"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Crossover/SinglePoint.lean",
+      "bytes": 4080,
+      "sha256": "ef528a500099048d68efb9692faec6bc98858d6c68b5888027347a82e7f5c466"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Crossover/Uniform.lean",
+      "bytes": 3188,
+      "sha256": "e0b0e91b88ad30e05857f782df76e56fcba836df40e732c73c726217ff74444f"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Mutation/BitFlip.lean",
+      "bytes": 2449,
+      "sha256": "d9a3f29b0186e3d184cf1c2a413c443c7a5289d3938fbb90582c8b53ea63827c"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Mutation/BitFlipTuple.lean",
+      "bytes": 1096,
+      "sha256": "82a846b9993ebb2a79135254ed50e5cd7ae73d94177edd5e6264a860b2d0607f"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Mutation/BitPattern.lean",
+      "bytes": 5046,
+      "sha256": "1512b70a372968bfa97cd90838658edb97a16d7487b5644d38880790322ce122"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Mutation/FixedSize.lean",
+      "bytes": 5635,
+      "sha256": "baf8b4852a7bcf4feee41f861d34380c90ddd418ee51927b1d5c86ff1f70505d"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Mutation/IndependentBit.lean",
+      "bytes": 4058,
+      "sha256": "d8e7157b0ad917d4186511cb0b6921a97b8860ed5fc286688f258115f78758f4"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Mutation/IndependentBitBounds.lean",
+      "bytes": 4519,
+      "sha256": "23637a249b3eb4a1db2102f35670de28401da9b59a465cd08571b5de34cf0250"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Mutation/IndependentBitCoupling.lean",
+      "bytes": 9272,
+      "sha256": "8e283c12bfa24242f74bfc25562b22b7831061eaf25753ea4c5f000c480aac60"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Mutation/OneBit.lean",
+      "bytes": 1320,
+      "sha256": "05209ec0950141fad96da1e5f9ec480e87694722df203249dbbc097b0f32a7fb"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Mutation/OneBitBounds.lean",
+      "bytes": 1457,
+      "sha256": "48b7eab33af48b23122d6e8661eef892987846168ffbc96a33f919dce5c96838"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Mutation/OneCoordinate.lean",
+      "bytes": 5291,
+      "sha256": "8c702aba685520d456ee74a1914e9764b5e4bd3251a5a0c6426f4dd566bfb67c"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Mutation/Recorded.lean",
+      "bytes": 4333,
+      "sha256": "049e0423c7bc3eb4e4c14ef00be948d22b0755c89b07ee4ee0c7f6da42ce9faf"
+    },
+    {
+      "path": "ECTheoryLib/Operators/README.md",
+      "bytes": 903,
+      "sha256": "4c7060f9e5bf3901f46a28f05cca03aa6f87fb0dd6706155a0afe17f3caa3da2"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Sampling/Batch.lean",
+      "bytes": 7496,
+      "sha256": "46646e492380bc5b5e9b4fa45bc20f15a4a2d89f840933e1d7fc1b9828181f45"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/ArchiveParent.lean",
+      "bytes": 2219,
+      "sha256": "c46de06beb33459d3b4d1b1ff34b0b4a97b2c3444af699ca85972c5838d267bb"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/CrowdingDistance.lean",
+      "bytes": 4914,
+      "sha256": "4f9f87b152e33bc1caab63a003849efe7205663889b196189dd3fb72c0c13d22"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/Elitist.lean",
+      "bytes": 1517,
+      "sha256": "a5dfe2ff36edc502aac294304c587777b5f6638af8ede2ec7fac1bf4cca51ba2"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/FullFrontCrowding.lean",
+      "bytes": 10886,
+      "sha256": "084fc49f1cedbb6bb575a30ad2eefe10daef6ad3c728bda9d832352f18b3ab7b"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/Hypervolume.lean",
+      "bytes": 7295,
+      "sha256": "15e1efef55333904e42c83700fa3dd4622cf8402386c9bbc669342a541a5195e"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/NSGAIIINormalization.lean",
+      "bytes": 12362,
+      "sha256": "47573875db4dba4581d154f70f6e3efc4772d5cb4cecc8c024391aba4ad6176a"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/OrderedCrowding.lean",
+      "bytes": 9079,
+      "sha256": "b8468edf96477e1c2b682c294780be23162a5d40f49f1ca8b85d4573a8b90fb4"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/OrderedSelection.lean",
+      "bytes": 5731,
+      "sha256": "ab99b51caebd7b8a49955e85e91de9b92b2d46744063d0b0cdf8114817e674fa"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/ParetoArchive.lean",
+      "bytes": 7705,
+      "sha256": "3501ad4ef0540b99ff0fce1a5cb9bde0e6cd1cb9960ca74e0df2a7de05890223"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/Population.lean",
+      "bytes": 5168,
+      "sha256": "bd95fdf60bcb6463a32568c3bde93069555067db9fbbd99edccc01bff57c4639"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/RankCorrectness.lean",
+      "bytes": 11388,
+      "sha256": "75c361252c8a4807a3ccd102d93b6d644280134a8cc56e1c97c52fcccabc97a9"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/ReferenceNiching.lean",
+      "bytes": 14287,
+      "sha256": "5751a26abfd25c3067cbefe2543f18eabb422b4e0d0a1f2c62ed0b58ed9e37ab"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/Strength.lean",
+      "bytes": 13333,
+      "sha256": "301018fb629a609a0369e09025d4817e5f75bf1b0b39b52fcb72f76a10be1512"
+    },
+    {
+      "path": "ECTheoryLib/Operators/Selection/StrengthScore.lean",
+      "bytes": 9103,
+      "sha256": "cfd8384b4f6e1cc456172e8c6873f58bfb3b5e5b7e5af905d0e8373cdffb0790"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/AdditiveChernoff.lean",
+      "bytes": 10550,
+      "sha256": "0eb3cd5f96dd5abcb9682640a2706d9c97d7822acdf7329e55a7563fb389a882"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/AdditiveChernoffLower.lean",
+      "bytes": 11003,
+      "sha256": "9c68a58b7ec51be960ba9c916302b0312940f0e6970eea250b25613fe8d81ed0"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/AzumaHoeffding.lean",
+      "bytes": 6139,
+      "sha256": "7329d4a38b204942a198af57c3fe2a343764e843cdc9c91f2ccf02ebb296ede2"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/AzumaMaximal.lean",
+      "bytes": 8286,
+      "sha256": "114338abcc7fd49d7885a14d8a000bc9f614a79f8e1cb1aa9eeff9f3718d8743"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/Bennett.lean",
+      "bytes": 27595,
+      "sha256": "302a863b12de685d46d44e113093c3903640d5e41476c1d3574a628a791fea1c"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/BennettCertificate.lean",
+      "bytes": 4028,
+      "sha256": "598c2cefbd0242e6f0fc16f79ec2c366bc6f60a0910650a4367ef10189cd284b"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/BoundedDifferences.lean",
+      "bytes": 38333,
+      "sha256": "303b41817b6c6546db3afe04e055866b255e2bbe09d67781b0f2bc4864faf19b"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/Cantelli.lean",
+      "bytes": 6965,
+      "sha256": "18266e7222fec5cae9a847edf5367edbf8aa6c62adeabfdc2950fea0185b6c93"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/Chernoff.lean",
+      "bytes": 15499,
+      "sha256": "3f6cbe486af718062fea191517c193c56ee5ef4b3ad8d9807827fdd5632a5143"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/ChernoffExponent.lean",
+      "bytes": 4354,
+      "sha256": "5d2cbd7e89bc2c79e737237ba02ef09cba933341aacf159cc5c0ba0219947677"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/ChernoffMeanLower.lean",
+      "bytes": 13968,
+      "sha256": "e53bb83b7992aff3d54f8c214dafc7316dc311c91996c6334993ce558b6b734a"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/ChernoffMeanUpper.lean",
+      "bytes": 20027,
+      "sha256": "e4043a4c3979f43c144a9a2c1b039685ecc089c5df51c8aee8a749b6859d1817"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/FailureThreshold.lean",
+      "bytes": 6332,
+      "sha256": "4054b572b085b20094722cf2a6412667930d9e86761c29009d59ae3509416422"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/FiniteAdditiveChernoff.lean",
+      "bytes": 9521,
+      "sha256": "9ed70c2d5f0d6d256ec6e14980da75b6888f2dfbcb9802c0e8a997720f8938b7"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/FiniteChernoff.lean",
+      "bytes": 18283,
+      "sha256": "0dbcf6793686f27abc3db0bfaf3a83c271adafe59ddf76459a8a04434f63ecbb"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/FiniteMGFCertificate.lean",
+      "bytes": 7949,
+      "sha256": "c0007212a53a6fca8aaa55aeb4453f4982092a4025ef469e5ad93dd8743b79fc"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/Hoeffding.lean",
+      "bytes": 12432,
+      "sha256": "58c809133f8eb560909249811cd324aba5223ff9f05b26eef65c56c7a7757665"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/LogarithmicThreshold.lean",
+      "bytes": 11383,
+      "sha256": "98fa1d8138f38739f7ade23dca7c434f55220962dccfdd337895257051f9f168"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/LowerChernoff.lean",
+      "bytes": 23779,
+      "sha256": "339d6730cd49424c54aa1909a9ef1d97949d92204d128111b5e7d77085ae1511"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/MultiroundFailureThreshold.lean",
+      "bytes": 6356,
+      "sha256": "a5ce5cae5312a35e9862ff942b886c6eecc966708ebb6227f9951a1b7f4bf364"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/ScaledVarianceChernoff.lean",
+      "bytes": 22234,
+      "sha256": "42f21fd81800a56e35c70d5a378c697a063bcba5fc64b072a4aef60db2e47e2c"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/SecondMoment.lean",
+      "bytes": 6135,
+      "sha256": "ddef5d115d8debdc696856c758fa02d59c2683e69a35f5256c6910420c41caae"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/TwoSidedChernoff.lean",
+      "bytes": 2542,
+      "sha256": "7ac4094e2c7b4512d71c91142731842bc80d77af23e142133df37acbd46cd426"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Concentration/VarianceFiniteChernoff.lean",
+      "bytes": 33031,
+      "sha256": "3f75f3b6064b78c1de63e82cd4b58c29a89b47276136618452b165c474d6f21b"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Conditioning/FiniteConditioning.lean",
+      "bytes": 4990,
+      "sha256": "366f9f7af32233133744587354dd2c120ebfec0f8516fb951f7468b9badc60d1"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Conditioning/RareEventConditioning.lean",
+      "bytes": 4667,
+      "sha256": "5371940df7cd6c2cfe14b199b1a1b07af38e8020402abed27a06f4741a6c9f58"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Distributions/BinarySumLaw.lean",
+      "bytes": 7136,
+      "sha256": "40557a114bc822f55099e89c434b74129f51edc5ccd400e41ce0a2dae625da86"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Distributions/BinomialConditioning.lean",
+      "bytes": 9684,
+      "sha256": "b81df1fa1f4e560ce6a8c0aa5f1da04367265a5aedb4c05a159af9a1aaaa492b"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Distributions/BinomialDomination.lean",
+      "bytes": 7775,
+      "sha256": "dc541d1f0a882a4376add933fc7405808d946a62887301cb5a5da248eb5f7573"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Distributions/BinomialExpectation.lean",
+      "bytes": 4467,
+      "sha256": "c6647a207808662198e9c079eb5bfeb5c75f413cc2a82c2b49fc2eb2f7ec79d8"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Distributions/BinomialHarmonicExpectation.lean",
+      "bytes": 5828,
+      "sha256": "a518ab3a36fb4349d7b84f12ef3c3c263f1578aa61b129c5c9862c5a3d7b8fd8"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Distributions/BinomialTail.lean",
+      "bytes": 5496,
+      "sha256": "f98b93031faf78d4d4a06737f311b844639a0464df465f6f6c18f74bea59b164"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Distributions/BinomialVariance.lean",
+      "bytes": 4677,
+      "sha256": "13863eadc5a65359304ae1ff09552608e6a61f52f39c8164d69f7bb148a5704b"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Distributions/ConditionalBinomialExpectation.lean",
+      "bytes": 7879,
+      "sha256": "e9a9e13bbdd3846e345ed28ca5ea8e1fefad7e27f786510ac9f6fdd71a86ae8d"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Distributions/GeometricDomination.lean",
+      "bytes": 5752,
+      "sha256": "0afc5e5a10788341b570f87f129c19329c6f06fde7dcf247bd55d37fc7e1eb99"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Distributions/GeometricWaiting.lean",
+      "bytes": 7469,
+      "sha256": "f49040f639eaf170b290ac9b1bdc290ebaf235ad198e3d7591f8f26ff26c8ee7"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/Expectation.lean",
+      "bytes": 4217,
+      "sha256": "c9b33227fcd7e9b3bd834d5f830ac1af6f165972824f9f64866ebc8222ed280f"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/GeometricHazard.lean",
+      "bytes": 10608,
+      "sha256": "134f1cd09c63fa5f6635488074d548bbec8412f3fe1d4c41309ce7c2772bc3ff"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/GeometricStages.lean",
+      "bytes": 5697,
+      "sha256": "0ec76669ef64df4796811e9d69038101e71687a454b11b1e2be475e2e84d1261"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/HittingTime.lean",
+      "bytes": 4660,
+      "sha256": "405422d5f6cf9a8639715c20e9341e903f1a2ee22d599dfc55cd8707dcbfa906"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/LevelHistory.lean",
+      "bytes": 15504,
+      "sha256": "e8bab5f1ffe599a83a46accb8a592b1b9d59adb777fb80055b3dd1ffef7f9a91"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/LevelHittingTime.lean",
+      "bytes": 7385,
+      "sha256": "34390d285203cb358145aef218e66b7aecc2ba5894416f587698066e6d07108c"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/ScalarHittingTime.lean",
+      "bytes": 7070,
+      "sha256": "9b84ce30897723ab552bfde50808d818c645932fef298f2a19cf82d3a4c484ec"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/StoppedHitting.lean",
+      "bytes": 4835,
+      "sha256": "d48c1935dcd66b329cb62d980def97f9ec61800c8cededc12853dec1b015e877"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/StoppedIncrement.lean",
+      "bytes": 6055,
+      "sha256": "4ae44834410e8bb744ff68109192a7f60a6108d6aebae5a9b687791fd0f66170"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/StoppedNonnegative.lean",
+      "bytes": 18684,
+      "sha256": "295e501ab4952d62e154679aec5578291d7daef0a693ce376a0bf6824947617b"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/StoppedObservations.lean",
+      "bytes": 2881,
+      "sha256": "edcbc1c8fc1558369d79039cafba8af8fce59d0d139ff08950f0defa247e4d80"
+    },
+    {
+      "path": "ECTheoryLib/Probability/HittingTimes/SupermartingaleHitting.lean",
+      "bytes": 3210,
+      "sha256": "ad1a70d889618dda98a124752840a15bc9a971dc2f61f547b751fd32602fe72e"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Moments/AbsoluteExponentialMoment.lean",
+      "bytes": 6465,
+      "sha256": "63466050b92089d89ba195ec58dcf8452b019c323cf4665363cf02480629f875"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Moments/BennettExponential.lean",
+      "bytes": 2846,
+      "sha256": "4a492ff9b4458509b3a1207a48cc3f8149c559dddb347d02c83c23c3ca339b36"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Moments/BoundedExponentialMoment.lean",
+      "bytes": 2782,
+      "sha256": "e37269c5e051a31311323230a0cd02ae06d0821332229d1ecbe2e2d2dd11b4fc"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Moments/ConditionalExponentialMoment.lean",
+      "bytes": 3768,
+      "sha256": "15ee87bbc8d64c1630a4388330e62c338cf4c85aa2a76df5e2dc4dfbdc94a835"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Moments/ConditionalGeometricJumpMoment.lean",
+      "bytes": 12893,
+      "sha256": "0e4edd4caaf45dbba2e494ed2dc753b4ba7ae5459045283f68879f9d07d6a998"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Moments/ConditionalSubGaussian.lean",
+      "bytes": 2982,
+      "sha256": "4376e4861431d26fb6d142306c4b7bdaed7383ccfa0e2db8eb154841710aaefa"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Moments/ContinuousExponentialTailExpectation.lean",
+      "bytes": 9667,
+      "sha256": "0a7cddf18e5bbbae253a27781d769c7fe5e51fc3f5afa8aac53703006c18dbea"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Moments/ExponentialLowerTailExpectation.lean",
+      "bytes": 5907,
+      "sha256": "20c8bef710dc631b14168dcfe9497a7a2a817256667fc40960c2bf31c41bfc69"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Moments/ExponentialTailExpectation.lean",
+      "bytes": 10721,
+      "sha256": "606d8b923b5fea0cf9f0b1dc11bfe744323139bfa75843f9d5347680dccf0e63"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Moments/GeometricTailMoment.lean",
+      "bytes": 7319,
+      "sha256": "729c6f5f3b87e08e755568f95a1e5890a3822c1f4fde962f5b391c2c914bee2f"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Moments/SignedTailSum.lean",
+      "bytes": 4282,
+      "sha256": "0569d1f5987017b0eafd8f2c3b7b48f52094af0664c949fac0dc0ce3c3c88f78"
+    },
+    {
+      "path": "ECTheoryLib/Probability/NegativeDependence/NegativeCorrelation.lean",
+      "bytes": 13415,
+      "sha256": "8186fd1c3a14b3df3ce955c0467b8422f37954c6ee5e277325f1c5cc312f8e6c"
+    },
+    {
+      "path": "ECTheoryLib/Probability/NegativeDependence/NegativeCorrelationChernoff.lean",
+      "bytes": 17671,
+      "sha256": "bc35079789f2cef8dab452988a0ee0c427fd8baa4e8adaa0c638d28a803d7fa6"
+    },
+    {
+      "path": "ECTheoryLib/Probability/NegativeDependence/NegativeCorrelationFinite.lean",
+      "bytes": 16876,
+      "sha256": "d1de72461199f3d1dc33d17cc2d2e87e0121bf013d2f76cbdef655c28de9b445"
+    },
+    {
+      "path": "ECTheoryLib/Probability/NegativeDependence/NegativeCorrelationFiniteVariance.lean",
+      "bytes": 16895,
+      "sha256": "d5bf83f4ad7560344acf2d23e66b33607e2f16a35b1d4b9fb0140459e4530a06"
+    },
+    {
+      "path": "ECTheoryLib/Probability/NegativeDependence/NegativeCorrelationHoeffding.lean",
+      "bytes": 14347,
+      "sha256": "89ed505cc99de36bbe0b7de6c898227fcc3856641c49070e20fe1d6eb5191cad"
+    },
+    {
+      "path": "ECTheoryLib/Probability/NegativeDependence/NegativeCorrelationThresholds.lean",
+      "bytes": 4960,
+      "sha256": "b5fb34b8f92afebd3353b50f6c983914ab6aefb81302db39a26e059db70bbae4"
+    },
+    {
+      "path": "ECTheoryLib/Probability/NegativeDependence/NegativeCorrelationVariance.lean",
+      "bytes": 8192,
+      "sha256": "3dfbfd6c0777c4fcd9d12458a9260fbf74a7c82def8d8793f427ec11ed1ed967"
+    },
+    {
+      "path": "ECTheoryLib/Probability/NegativeDependence/ScaledNegativeCorrelationVariance.lean",
+      "bytes": 6020,
+      "sha256": "4fd5e7634a7cc04b5092f958d5c1b4077e8ca3e9a3e5b8e307b832465f7bf6be"
+    },
+    {
+      "path": "ECTheoryLib/Probability/NegativeDependence/ZeroNegativeCorrelation.lean",
+      "bytes": 9036,
+      "sha256": "7bc09c5bcebf498f3aa34aeb9ec90dbf7feb9eeffd8af8ba1d61d88009246c18"
+    },
+    {
+      "path": "ECTheoryLib/Probability/PMF/BoundedPMF.lean",
+      "bytes": 2997,
+      "sha256": "b34caa1fdc0d745f53b6d19b2977611b508b8588bf5a38d0464029bcb3ed4296"
+    },
+    {
+      "path": "ECTheoryLib/Probability/PMF/FinitePMF.lean",
+      "bytes": 3772,
+      "sha256": "07d5f79448291f4b0a03fe77959f534082da26a57de292e547711d291b589145"
+    },
+    {
+      "path": "ECTheoryLib/Probability/PMF/FiniteProgress.lean",
+      "bytes": 1068,
+      "sha256": "fe3f934ad60f465d62f79b02b0047ce061633ee46814ea519c1b315857c846c7"
+    },
+    {
+      "path": "ECTheoryLib/Probability/PMF/SupportedSubtype.lean",
+      "bytes": 1295,
+      "sha256": "b551c085fd597fe62d8619d349258fde7214070c2c1e1cf306f1e42e2e17b900"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/BackwardBound.lean",
+      "bytes": 4090,
+      "sha256": "f444e637a3894e9a2fc4ec5c5c73e2e759d709cfec991e08fb4c2f39674004e9"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/BoundedPathDrift.lean",
+      "bytes": 7582,
+      "sha256": "d36c01d24d70abb021917869d61537220f786ac5d5765fd04eb52837c66e4efd"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/ConditionalDrift.lean",
+      "bytes": 6552,
+      "sha256": "0a42e77e78254a103ae376fb00abf208cae2cfcd5722e52567dd2b84b81712d1"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/ConditionalTransition.lean",
+      "bytes": 6170,
+      "sha256": "57403b486df8e720a22a54fce915d28db35c4786f4cdb77cb71c77ff5a46e4d7"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/CountableHistoryConditional.lean",
+      "bytes": 3380,
+      "sha256": "3649b5870851f0a2981a186642e5920b69d8e4e4a0616099ff4c14e08221999b"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/EventUnionBound.lean",
+      "bytes": 1863,
+      "sha256": "52bca9fe8dab0d19f7d0a4688f8a96fe046a1f8bba5b96b2739b183c80dd2490"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/FinitePotentialHistory.lean",
+      "bytes": 1454,
+      "sha256": "7bfed9002b9c4d89b737ed5ff07c821c1f5f83706ea7249160db2e1a9b0e8f19"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/FiniteStateBounds.lean",
+      "bytes": 5535,
+      "sha256": "21dca0b5d408634f5e6762167bac59cddd9fdfdd37ca0436efb62b71cee82a56"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/HistoryConditional.lean",
+      "bytes": 6185,
+      "sha256": "a2aa2efd0149675871281f558505b00ab14f486b9d2ad3be5829a467d832249d"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/InitialMixture.lean",
+      "bytes": 2021,
+      "sha256": "b0ab46f131a2defaadbfe1b84f54a7590dcbf6b7d5c528c4b98e0b9bea026cb1"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/Invariant.lean",
+      "bytes": 1322,
+      "sha256": "512b53560f1cdf295c9cb1f45521d3f0420a1f28553f8e89a6d5445d7aa28bf1"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/PastEventTransition.lean",
+      "bytes": 4044,
+      "sha256": "c8628839de8ee73ff680de1cf2c0524a68959abfd9f74acf871e02c2b892954e"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/PathDrift.lean",
+      "bytes": 5274,
+      "sha256": "7aaa2d41b997a29a2d065e7dff91698c214484aec289460ef88eb3f204a67251"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/PathDriftBounds.lean",
+      "bytes": 4763,
+      "sha256": "d566d9558ebd825e9f4a937a23f4a5db8cf49b62a3befda1975ef3d72a1e2ee6"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/PathInvariant.lean",
+      "bytes": 1947,
+      "sha256": "d0124b088268be8a913fbf91b156c59ff0306f0e799c96ddf80e6455e78ac92e"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/PathMarginal.lean",
+      "bytes": 3166,
+      "sha256": "5f5950db388ddae49b3ea2ba14d9f3c8213d301673c703947b4d9c5e9fae35b4"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/PathSumDomination.lean",
+      "bytes": 7107,
+      "sha256": "a2866bc37664f2d1d896038adb0e479e478c70025a5d1eca46e8216643a10d7b"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/Process.lean",
+      "bytes": 10561,
+      "sha256": "e1710be1d96d668436d306d80251c1e4509bdf7e5772d4ba38d56c3d8c7491c0"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/ScalarProcess.lean",
+      "bytes": 5852,
+      "sha256": "f3cb7cc440fc8aa571c52294c72aadc171a344e3bf56af3c1a1e069de1656ba4"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Processes/Transition.lean",
+      "bytes": 2445,
+      "sha256": "086ffcb99e9f7faf1927bd08cbd06be1ddcbee1f0d8c6b66b7dba2c4a844da71"
+    },
+    {
+      "path": "ECTheoryLib/Probability/RandomWalks/FiniteBiasedWalk.lean",
+      "bytes": 8462,
+      "sha256": "2f6c32dc9fad1d4b577211c54b8a44b6b0ae63e72847d26c2df02bd38fa14480"
+    },
+    {
+      "path": "ECTheoryLib/Probability/RandomWalks/ReflectingBiasedWalk.lean",
+      "bytes": 2101,
+      "sha256": "92a5260eb95cf552390c3b0bdc7988f64631526196bd24728c2fdfbadc0dc942"
+    },
+    {
+      "path": "ECTheoryLib/Probability/RandomWalks/UnboundedBiasedWalk.lean",
+      "bytes": 5966,
+      "sha256": "684a8aace712676d5d9f6a5f06339c4aad22f4679a46d19c39864c28e7144a2d"
+    },
+    {
+      "path": "ECTheoryLib/Probability/README.md",
+      "bytes": 1207,
+      "sha256": "0d82e50c611f75fc0a71d6f3ba5522628ae7cf174454661c4279944ef6a8dbbd"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Sampling/CouponCollector.lean",
+      "bytes": 1598,
+      "sha256": "65b7f402a3e821e6aaba614a5cd517e6f471fff358c58752820694a7ee9f2ff8"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Sampling/CouponCoverage.lean",
+      "bytes": 16809,
+      "sha256": "77d7f7a1e02486ad6648b5338d2ad268f1eae79ff158e40810640a6f780a5274"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Sampling/Hypergeometric.lean",
+      "bytes": 15554,
+      "sha256": "3eeb0f7eb56cbda4d6ad474bee5373befcfc3c4b2b902048402ed9e885268ccc"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Sampling/RandomSubsetUnion.lean",
+      "bytes": 18310,
+      "sha256": "6b3e0db5f61a6b144c70b9e708ea2e7c1370d7cde62c91871d4d33c8ff023001"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Sampling/UniformSubset.lean",
+      "bytes": 17874,
+      "sha256": "7fbaa9e6efb7a75a15818c39f9b3b08d24e15e0af2d32c718401a3e0642b205b"
+    },
+    {
+      "path": "ECTheoryLib/Probability/Sampling/UniformSubsetUnion.lean",
+      "bytes": 5290,
+      "sha256": "d45747d555d8fb83ef22c408d7cd93f1f95cf101416747aa2be637387adce1fe"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/BinaryDomination.lean",
+      "bytes": 5452,
+      "sha256": "7793d2f450c53ec93cfbd3742dd893b797ccaa0b0e04a2a5c63bf4bf6c921d85"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/BinarySequentialSum.lean",
+      "bytes": 5834,
+      "sha256": "35826cb464eb75af453d592f642ff802998ce97f01fc311e8601334b93c28dc2"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/ConditionalStochasticDomination.lean",
+      "bytes": 6411,
+      "sha256": "457e6cbd4492ae5e215ef1c76b9e828d694f1fd03995278a4be3036e7f73e39a"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/ExtendedNatExpectation.lean",
+      "bytes": 2301,
+      "sha256": "ad6e39099460c1f8dc638d06ea057e3f901e4084c62721365e266557d416cf3f"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/ExtendedNatSum.lean",
+      "bytes": 21151,
+      "sha256": "6d395f5a0881ebde94ad0f192fc4fff323414846a8cf2cb825b5eebaa6f9bb53"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/NatStochasticDomination.lean",
+      "bytes": 2755,
+      "sha256": "1b913954d6c721361b65713e547c7587e32d5881eb3ed57675c9185c440b5557"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/OrderedCoupling.lean",
+      "bytes": 3233,
+      "sha256": "2b197eba1a9c7b1d8934cadcec1c9187b28e7962ad201e666ed0d8a6e7b3a6be"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/Quantile.lean",
+      "bytes": 6252,
+      "sha256": "67efb1786aafcc8250d921cace25a54e32eb829f196dba46f9d16d143f73216a"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/SequentialSum.lean",
+      "bytes": 19549,
+      "sha256": "3c58d0ab820bd2504aafd4c380710dccb838f4fe4b4d21fb741208e8418f5f57"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/StochasticConditioning.lean",
+      "bytes": 7197,
+      "sha256": "7770151a3d253bd7538a189a452c79fae613da85d8f4e170267a531a18e53e4e"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/StochasticDomination.lean",
+      "bytes": 7807,
+      "sha256": "1a3b0ddc04fb3d44397402a62dbd77581b5ae8f82f5d4e283e24ef9d366d625f"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/StochasticExpectation.lean",
+      "bytes": 7453,
+      "sha256": "0804877efebde147b9a017d423e78cf218ac3bd4dc75f41811ae04dfc6a3fb7b"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/StochasticMonotone.lean",
+      "bytes": 7168,
+      "sha256": "9142e8a5ed50b5c2519fed34aee672c4b1bfdaeb48594855787af31f533122d4"
+    },
+    {
+      "path": "ECTheoryLib/Probability/StochasticOrder/StochasticSum.lean",
+      "bytes": 5402,
+      "sha256": "4ba06b2e4103154d9261c3b8e707e5b95ce042b101de65562ccd03e1f3e62ad7"
+    },
+    {
+      "path": "ECTheoryLib/Problems/Basic.lean",
+      "bytes": 576,
+      "sha256": "876667d520e8446a92ba5f1e10bb77b878d7b348896877b9b30e7e30181bccf7"
+    },
+    {
+      "path": "ECTheoryLib/Problems/Comparison.lean",
+      "bytes": 1370,
+      "sha256": "adcaa1df0aa27a6904c1ea402f4133cc3c7f53bbb413312ba157737409936611"
+    },
+    {
+      "path": "ECTheoryLib/Problems/Jump.lean",
+      "bytes": 2753,
+      "sha256": "91cdbf2132d3a9879de79b35cd27d574755b7abeee6f2e1c7151ac96c2a2c9e0"
+    },
+    {
+      "path": "ECTheoryLib/Problems/LeadingOnes.lean",
+      "bytes": 9044,
+      "sha256": "fa59e1c3df4a4a0152f2d26758a0f39f29f69dd60058ea5fb0180b8b35bb2996"
+    },
+    {
+      "path": "ECTheoryLib/Problems/LeadingOnesCounting.lean",
+      "bytes": 4241,
+      "sha256": "2aa3fbe646bfd36f74d77d7d4232956e23b2bc8afbbef372937809d0107dbbd4"
+    },
+    {
+      "path": "ECTheoryLib/Problems/Linear/BinVal.lean",
+      "bytes": 2661,
+      "sha256": "be361dd80a9737a11536d2efb211b6ebf1152ee0941f5c5e11b1a0a7dd987eed"
+    },
+    {
+      "path": "ECTheoryLib/Problems/Linear.lean",
+      "bytes": 1027,
+      "sha256": "5323d068896c64ca0c2ad1be9d6c520a0828553a9850e35f2936f5632c520785"
+    },
+    {
+      "path": "ECTheoryLib/Problems/LOTZ.lean",
+      "bytes": 5143,
+      "sha256": "450a586b1ad4ae84802aac12e85d90b338660035522f7a3b566e1b103b513978"
+    },
+    {
+      "path": "ECTheoryLib/Problems/LOTZGeometry.lean",
+      "bytes": 4029,
+      "sha256": "3fd25b400afb3ab17f4fd9ed7cd5a506c89d47653ace68089b1af99ccca5cae1"
+    },
+    {
+      "path": "ECTheoryLib/Problems/MultivalOneMax.lean",
+      "bytes": 5547,
+      "sha256": "b9e8e9161f014aef1fb5a0970104ef7e1a34187f57a3d6661aff1c50268f0f5c"
+    },
+    {
+      "path": "ECTheoryLib/Problems/Needle.lean",
+      "bytes": 1532,
+      "sha256": "7de22287b8ca3739273e0e726c80a6795baa3c27cc2301da146f33d81e877045"
+    },
+    {
+      "path": "ECTheoryLib/Problems/OJZJ.lean",
+      "bytes": 8115,
+      "sha256": "3bdf9c521acf1137dc3d2194bbb34f5dfd0ed00acee13ef4c40986528fe495f8"
+    },
+    {
+      "path": "ECTheoryLib/Problems/OneMax.lean",
+      "bytes": 6286,
+      "sha256": "0fb2edf493002166490a9bdc41eed771d17f96d142b6099ec00c1c7f477d624c"
+    },
+    {
+      "path": "ECTheoryLib/Problems/OneMinMax.lean",
+      "bytes": 3274,
+      "sha256": "380306192b77ec174bf83aac8bbaf7da4627a431b7e49dd025b38f36aea607a3"
+    },
+    {
+      "path": "ECTheoryLib/Problems/Pareto.lean",
+      "bytes": 1902,
+      "sha256": "8ee87f6ff306e1905827fd3605ad99c76ce13feaeaf4763f8734f9b708c27db8"
+    },
+    {
+      "path": "ECTheoryLib/Problems/ParetoFront.lean",
+      "bytes": 1345,
+      "sha256": "a3fe0f77c68b9187cb8620289ca3c37498436a71e56ceed676d30994dcc51cfb"
+    },
+    {
+      "path": "ECTheoryLib/Problems/README.md",
+      "bytes": 690,
+      "sha256": "2c2f851b3f86c1ff9d5311a656786493234ef10c26062ed6a9928170691e01a7"
+    },
+    {
+      "path": "ECTheoryLib/Problems/TargetOneMax.lean",
+      "bytes": 5065,
+      "sha256": "0fc5094d859c74118f88d5f155a67819649ef5955a30b7d7ee5d41b082c74271"
+    },
+    {
+      "path": "ECTheoryLib/SearchSpaces/BitPopulation.lean",
+      "bytes": 808,
+      "sha256": "140ff063ea27e89feed945bf339a2d087276801309407067743fd4ff5d838520"
+    },
+    {
+      "path": "ECTheoryLib/SearchSpaces/BitString.lean",
+      "bytes": 491,
+      "sha256": "af77a6f6d791e6059c8d6cf6ef189a079d201452bfb0eca793d78344ab863019"
+    },
+    {
+      "path": "ECTheoryLib/SearchSpaces/MultiValue.lean",
+      "bytes": 1277,
+      "sha256": "df6f542e732180e3346d7c8808da003e2a791523b3f2b60bb281e65a6ac33bfa"
+    },
+    {
+      "path": "ECTheoryLib/SearchSpaces/README.md",
+      "bytes": 610,
+      "sha256": "2c9ba067ab36ca4b895c9b13e433d1d96d80fa5bf90cc030e76f1d696441b71a"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Coverage/Batch.lean",
+      "bytes": 6486,
+      "sha256": "740043bf5e3574d029ef165bcc9283e45346f0cb24af95f41c194cc04545e4a3"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Coverage/Finite.lean",
+      "bytes": 4369,
+      "sha256": "0d8454c50555f0902471caa6e59f2e3b8379b0779e9d3df0eb5a917bc4b9d089"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Coverage/Line.lean",
+      "bytes": 3811,
+      "sha256": "e15dab54404646e1be3505d36f30a44117bcfb524bf5eebb80e00b4b075f3a35"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/Additive.lean",
+      "bytes": 9385,
+      "sha256": "abf2f4a47a1ec1cdded620609a40a91dc90c3812aab9d4e4ff63699c6214395c"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/BoundedAdditiveTail.lean",
+      "bytes": 5248,
+      "sha256": "e5dee881dc99a451bbee61f26744ba0daea3d54fdb26e69b8fd147a5a798c5d2"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/BoundedNegativeDrift.lean",
+      "bytes": 9001,
+      "sha256": "c0d5f6add9c9db405b95314ba79b3ba4d4f8250f8ccd3de75efae2e503432d05"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/ExponentialBarrier.lean",
+      "bytes": 13440,
+      "sha256": "9f6b5f74a07e053cb3f4441e90f14f057d4ae35783d05977cdb98d9e47d4281c"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/ExponentialLowerTail.lean",
+      "bytes": 11559,
+      "sha256": "13fff68e7f4bd73cfc1177fdfd663a1491b3d9e60a2efa016abff51410e39217"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/ExponentialMomentNegative.lean",
+      "bytes": 9822,
+      "sha256": "9e0062f7b4dac92fb1692b500cc017ca3afbdb88f521c1e5630db1f6c27cce65"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/ExponentialTail.lean",
+      "bytes": 14176,
+      "sha256": "86e14c3abf51b99a72ab875fbf08d24a97dc002fe9c36b15cf6ebe10c3f6ee70"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/FiniteMarkov.lean",
+      "bytes": 5056,
+      "sha256": "2456bec60a090ae8a8502fbf11ff58317834616800a443b3487280b80749be02"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/FiniteMarkovExact.lean",
+      "bytes": 5084,
+      "sha256": "5bbc50c33db8f7c4c128ac529672a897418d40c798d4309d69e3df342d6484bd"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/FiniteState.lean",
+      "bytes": 11697,
+      "sha256": "fd8a8f3ff01f641e74fba8caedc08daaee121d7c252dbd2348203331f577e96a"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/GeneralExponentialLowerTail.lean",
+      "bytes": 23912,
+      "sha256": "b25ecc7f308421b93ccb54a20b85e1ed0b9457fc601b68d9a9a789202a2b1607"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/GeneralExponentialUpperTail.lean",
+      "bytes": 7637,
+      "sha256": "341c43b44320e9dd8f3f14d59fcf9e624db412656daaf91c7cced88c83fc01e5"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/GeneralGeometricJumpNegative.lean",
+      "bytes": 7353,
+      "sha256": "c1a24d25429328fc145528dfbf9c3cfbbc7ef6a25c46244f5d0643ac5d235f1a"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/GeometricAdditiveLowerTail.lean",
+      "bytes": 15631,
+      "sha256": "625c73c0e0dd531360533641260a90b03fd88b30b8b6759e71da0f00a20d5dfd"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/GeometricAdditiveTail.lean",
+      "bytes": 11501,
+      "sha256": "5962ec5572dcfbf1e2a121d7caba0796ccc049e5f404e2c3f9808d66496c58b4"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/GeometricJumpAsymptotics.lean",
+      "bytes": 11812,
+      "sha256": "a7a6d442f10a7b034721498c4440e4445820cd80a42cb94fd0725e0472fc92ca"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/GeometricJumpNegative.lean",
+      "bytes": 5876,
+      "sha256": "0a57957aa145a0d278adfd9d5499eaea26a76afd05f2460fb2ee1828dc7afa58"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/IntegrableExponentialBarrier.lean",
+      "bytes": 10419,
+      "sha256": "cd8ef608efe3e6588ffdec8b9a1a9560a09fb52dfff068946a299f157b3692b3"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/IntegrableExponentialMomentNegative.lean",
+      "bytes": 4425,
+      "sha256": "69a7ebd4744fdcb93735aebe1ecfc09889b48ca1ab67d12104f16609250dba74"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/IntegrableMultiplicativeTail.lean",
+      "bytes": 8132,
+      "sha256": "e0e5c9dc50f4acdddb7f247b4d286faa1c356763c124b9449d96a279671cbab2"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/LowerBound.lean",
+      "bytes": 3630,
+      "sha256": "114791422fb298caa9ced721aa1789851dc93cd85dd1cf833e17269d7645180a"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/Multiplicative/PositivePartLower.lean",
+      "bytes": 20711,
+      "sha256": "6d10d1344b7a9bea069f38bf2f3a6260a563d27f4e4ccdaccdf6881e9fe8e7c1"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/Multiplicative.lean",
+      "bytes": 6059,
+      "sha256": "1c48a34f6dd65b4d9cc803b6704dc951054980fce5cee6bd2dc3b80ac68977a7"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/MultiplicativeLower.lean",
+      "bytes": 21228,
+      "sha256": "909e97a7455ff0adffcf5316cb6a0f2e0216ee08caac3c7de7ab4b8be211fe99"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/MultiplicativeTail.lean",
+      "bytes": 13347,
+      "sha256": "47a557e57f592ee9203183fe39bd284ef1625ab617ffe3ed8d0fbb6373a229d1"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/NonabsorbingAdditive.lean",
+      "bytes": 9286,
+      "sha256": "5c41d03c3db4b80d65f2e50db50a9ced5f9cb67d63e6ef88c796dfbdf78d433f"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/NonabsorbingGeometricJump.lean",
+      "bytes": 6322,
+      "sha256": "5bd07c0bcb58b6be28614888b114f8ae1bf5c038f1ac5f92df2dad7310714b2e"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/NonabsorbingMultiplicative.lean",
+      "bytes": 7686,
+      "sha256": "e87abcc6a1c56dc5cbffe9a4a114400803d644ec882765f79ab717d63d7559eb"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/NonabsorbingMultiplicativeLower.lean",
+      "bytes": 3852,
+      "sha256": "b959b749a757683a7273c3bf28cf9c5666af586e134dcad61579b2245ffbd000"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/NonabsorbingMultiplicativeTail.lean",
+      "bytes": 4491,
+      "sha256": "3993de5e0801b693e242384559809a1e36db6bdb86109089c572c73562b2fb5e"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/NonabsorbingVariable.lean",
+      "bytes": 10552,
+      "sha256": "7c12359b5945e2b26ea4b8754e1e98dfdb2d8a840193ba6662b2a1f01ccbbfc7"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/NonabsorbingVariableJumpLower.lean",
+      "bytes": 5119,
+      "sha256": "a5bb3f98d71970147e52405d3465574db873f70c66d2b810026f791ec2b04a75"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/NonabsorbingVariableLower.lean",
+      "bytes": 2995,
+      "sha256": "6630ec84dc66b7fcecdea725739ad8550fe384981d0861c1819fd17203ec2aef"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/Potential/Canonical.lean",
+      "bytes": 20760,
+      "sha256": "0bbfcd58ae3475c86173184606f24e679e02f68deecaffc7834782d913cf4982"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/Potential/LogarithmicBounds.lean",
+      "bytes": 2746,
+      "sha256": "af348082746153f8abb050a6b39f30799154a944da73ba72a840218481a4ae1d"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/Potential.lean",
+      "bytes": 8397,
+      "sha256": "e05811d2591c38c08a1d69d88db179b21c51f4eef727ffb5c5dcf3f107ad91d4"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/PotentialLower.lean",
+      "bytes": 8926,
+      "sha256": "12e928e358cd77c6643997d0dd5a465057c3250960ac5d5ee1253a8f40c93cd4"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/README.md",
+      "bytes": 1080,
+      "sha256": "22327b1cdbfc06f7f81e16a9ef393f922a66e5d6496710b02594bb4d524d6a1c"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/SurvivingStateMultiplicativeTail.lean",
+      "bytes": 3600,
+      "sha256": "e921edfe26d66f3078a2e27f3447327c727e23348b8d23be28cbbc93e79f0080"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/Telescoping.lean",
+      "bytes": 2694,
+      "sha256": "20888eeebb93649359f609db11aa1eefe9653eb331ef70154103fe15ec58cf2b"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/Variable.lean",
+      "bytes": 11583,
+      "sha256": "1a95b29efb583bcd8c0a4936ac9e6a7d205684c4856d14564211b308faa48330"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/VariableJumpLower.lean",
+      "bytes": 10263,
+      "sha256": "c05808576bbc008f3ac96c0c8d269cd4e9198c2404e9ef8e8a67aceab95ccbdf"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Drift/VariableLower.lean",
+      "bytes": 8407,
+      "sha256": "f6a304e42bc5be5cc462b3cd653aa596be9f96b2a70630a4483546de83e73e03"
+    },
+    {
+      "path": "ECTheoryLib/Tools/README.md",
+      "bytes": 540,
+      "sha256": "2cd08f73edccd0bbea347ae492ffb0f1909c0ae4a9f9dcb85744ab96aadd6050"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/Additive/NonabsorbingLower.lean",
+      "bytes": 2619,
+      "sha256": "73bbedcdd611c5aa761500fc78560abf56cb3652960f640a0de1921809491524"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/Cost.lean",
+      "bytes": 3901,
+      "sha256": "e4ce1ddb20ea116ce57853283f70f594631c5c5fe073a8e99963d4db68f70c15"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/FiniteRange.lean",
+      "bytes": 3219,
+      "sha256": "5e101ee077364114b1d95d1666de874d3311c8db6e0faa7e70e1890050835c1e"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/FitnessLevels.lean",
+      "bytes": 2543,
+      "sha256": "9ce9fc0b860729bf7ba9edcbf80cedba9d792e2aff5e7084e09299895b0d8b0c"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/FitnessLevelsFromHistory.lean",
+      "bytes": 8567,
+      "sha256": "4bb433fdc0f77721429854eb5603d07e000c23d176de39a9623d0227ab948788"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/Geometric.lean",
+      "bytes": 9135,
+      "sha256": "30e9e472de76352f65d3229d0e424c109e32fbf0e31fda71bf57fb52a137b4f1"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/GeometricJumpLowerTail.lean",
+      "bytes": 4269,
+      "sha256": "36877f2f610cc09f14c93e3c86627b22a35570deaea7135f0ea3ce62fd2656de"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/Harmonic.lean",
+      "bytes": 3329,
+      "sha256": "279fce675de2d5deed604ea94d24e2f82cc1d31d3f59c53d6572c8455f0ee617"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/LocalDrift.lean",
+      "bytes": 5706,
+      "sha256": "7792e88bdd6bdfbd48462974730e425eae1e5ac0755139c96d503cd7e508cd5e"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/Multiplicative/NonabsorbingTail.lean",
+      "bytes": 5857,
+      "sha256": "577fa1db687c32f88e22b76b9f9d503108429043b5127073c70f4f15af5778ee"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/Multiplicative/PositivePartLower.lean",
+      "bytes": 4586,
+      "sha256": "cb296274e5bc1eec1a6cd6a0a6fc207dc21783662a08b642f3c1fef8be4bd747"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/MultiplicativeTail.lean",
+      "bytes": 6480,
+      "sha256": "29aa78d7701ea00421a997f1e08a6e464422664fb008ad95498f87df990d308b"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/NonabsorbingFiniteRange.lean",
+      "bytes": 4311,
+      "sha256": "1defb756f28ac32715b2263720b861421d6bacb56e66a947102122b0cef15aec"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/NonabsorbingGeometricJump.lean",
+      "bytes": 4142,
+      "sha256": "ec367a73fac64740bfe2fd3f8e9080034e5dab27d3049cc3df26ae89f6757987"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/NonabsorbingMultiplicativeLower.lean",
+      "bytes": 4463,
+      "sha256": "61eff7e0870a61e073fede40a3ee77bfded9ab659473eb3fcb69ed53fd1c4e84"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/NonabsorbingVariableJumpLower.lean",
+      "bytes": 3214,
+      "sha256": "0490b77263f7d2d764ad378a4f7e76534db7066d065d440c80a34bbad72befed"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/Phases.lean",
+      "bytes": 7511,
+      "sha256": "e96e94928ec5337ad18f8ce8aaf1268be61bf42abf41ccf221bc88b8614646b8"
+    },
+    {
+      "path": "ECTheoryLib/Tools/Runtime/README.md",
+      "bytes": 998,
+      "sha256": "d262d7b2bb7b7fb4df4c8631472678e67ccab9ba27f1f8b9b067585050335a61"
+    },
+    {
+      "path": "ECTheoryLib.lean",
+      "bytes": 15703,
+      "sha256": "59e8ec59fc48a3384373911a09b6086a12b7dec84484e49e4d46379c801ae4e6"
+    },
+    {
+      "path": "Examples/Conditioning.lean",
+      "bytes": 12372,
+      "sha256": "6f412e3aa2a4f91bacdb4dd7fb14e27d4ca05f91f8e28c9f7e3126c8146c4e79"
+    },
+    {
+      "path": "Examples/ExpectationConditions.lean",
+      "bytes": 5783,
+      "sha256": "2f579dedeb15a910d8ee3fa61c7e7a62dc2de26fcdc6939cedc9c84a8eb1d6af"
+    },
+    {
+      "path": "Examples/FiniteRangeDrift.lean",
+      "bytes": 7120,
+      "sha256": "8d50f78d7f74fb833bfd163c3b1fe528df6b1882e85198eb60877af7ccc5f0f5"
+    },
+    {
+      "path": "Examples/ProbabilityTools.lean",
+      "bytes": 3049,
+      "sha256": "817c7f9104d9eed292ce0e21bd6c92276123dcd9585cc4f31c5bc5cf31e49fd1"
+    },
+    {
+      "path": "Examples/Quickstart.lean",
+      "bytes": 1396,
+      "sha256": "0488a71c18cbd47194e629c643caba5ca8e94baa9030f5310f5702008b8cfa27"
+    },
+    {
+      "path": "Examples/README.md",
+      "bytes": 1200,
+      "sha256": "6868c2a927b85e0ec7db9b3759fc7e4d8a4818ea5bc57425610d4ffd952b6507"
+    },
+    {
+      "path": "Examples/TailConditions.lean",
+      "bytes": 9430,
+      "sha256": "729b7815669af7da21f2b0e9bc148e23c33d1fa3bb5e6f992935dba188ef4f83"
+    },
+    {
+      "path": "lake-manifest.json",
+      "bytes": 3675,
+      "sha256": "1928a02efe04ec625012daea817dab1e6ff73069113a561643b3faf316437534"
+    },
+    {
+      "path": "lakefile.toml",
+      "bytes": 260,
+      "sha256": "fb7ea53325e1a8d9d5aec62c6703580aa3158a3cf0994323a594e2f1923a79d8"
+    },
+    {
+      "path": "lean-toolchain",
+      "bytes": 25,
+      "sha256": "302cd63c54178885b89e669f33b38f12f4dd7ae7e5cac537b3203e3768d8fb2b"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11558,
+      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 255,
+      "sha256": "be65bc2a641fa2bac95a59f3a0d94c56f293505ff0bd4a8406e35fcbfb56bb19"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 3171,
+      "sha256": "38d69ec003721793c2ccfc48c70bb970b30db8f4717294ac34ad6c9c5cf06208"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4334,
+      "sha256": "c24434a4bcd18ab1c15414433585ed07a40c6fbfc4c7e51dc0db94784bea0683"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 4708,
+      "sha256": "663b1f9afe5882bbd5bd20ad578319dd97f8fb17af0583f2357ded58ff356be7"
+    },
+    {
+      "path": "setup.ps1",
+      "bytes": 884,
+      "sha256": "26f809c2b4cc9b4dfb1e60b3deb5fa26a216e2332dfab6cb3b1a5796a29ac94b"
+    },
+    {
+      "path": "validation/release.json",
+      "bytes": 4821,
+      "sha256": "a1f0df0e45c2fe655ed0cf7ede4b44b9fa1c3b6b873987f71e409e9fd716d4d1"
+    }
+  ]
+}

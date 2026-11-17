@@ -1,0 +1,9 @@
+/.lake/
+*.olean
+*.olean.server
+*.olean.private
+*.ilean
+*.trace
+/validation/logs/
+/validation/latest-check.json
+__pycache__/

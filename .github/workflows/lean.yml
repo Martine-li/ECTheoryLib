@@ -1,0 +1,51 @@
+name: Distribution validation
+on:
+  push:
+    paths:
+      - 'ECTheoryLib.lean'
+      - 'ECTheoryLib/**/*.lean'
+      - 'Examples/**/*.lean'
+      - 'lean-toolchain'
+      - 'lakefile.toml'
+      - 'lake-manifest.json'
+      - 'setup.ps1'
+      - 'check.ps1'
+      - '.gitattributes'
+      - '.github/workflows/lean.yml'
+  pull_request:
+    paths:
+      - 'ECTheoryLib.lean'
+      - 'ECTheoryLib/**/*.lean'
+      - 'Examples/**/*.lean'
+      - 'lean-toolchain'
+      - 'lakefile.toml'
+      - 'lake-manifest.json'
+      - 'setup.ps1'
+      - 'check.ps1'
+      - '.gitattributes'
+      - '.github/workflows/lean.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: windows-latest
+    timeout-minutes: 180
+    env:
+      LEAN_NUM_THREADS: "2"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: leanprover/lean-action@ba3fdfe5c4476c925da13bf11a005ddb47e47aee # v1
+        with:
+          auto-config: "false"
+          build: "false"
+          test: "false"
+          lint: "false"
+          use-mathlib-cache: "false"
+          use-github-cache: "false"
+      - name: Fetch fixed dependencies and their cache
+        shell: pwsh
+        run: ./setup.ps1
+      - name: Build the library and check published examples
+        shell: pwsh
+        run: ./check.ps1

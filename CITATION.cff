@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use ECTheoryLib, please cite this software version and the mathematical sources relevant to your use."
+type: software
+title: "ECTheoryLib: A Lean 4 library for the runtime analysis of evolutionary algorithms"
+version: "0.1.0"
+repository-code: "https://github.com/Martine-li/ECTheoryLib"
+authors:
+  - family-names: "Li"
+    given-names: "Mingfeng"
+license: Apache-2.0
+abstract: "A Lean 4 library for evolutionary algorithm runtime analysis, following the drift analysis and probability tools of Theory of Evolutionary Computation and providing concrete algorithm models and runtime proofs."
+keywords:
+  - Lean 4
+  - formal verification
+  - runtime analysis
+  - drift analysis
+  - evolutionary computation
