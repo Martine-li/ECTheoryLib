@@ -43,6 +43,14 @@ jobs:
           lint: "false"
           use-mathlib-cache: "false"
           use-github-cache: "false"
+      - name: Make Elan available to PowerShell
+        shell: pwsh
+        run: |
+          $ElanBin = Join-Path $env:USERPROFILE '.elan\bin'
+          if (-not (Test-Path -LiteralPath (Join-Path $ElanBin 'lake.exe'))) {
+            throw "Elan's lake.exe is missing from $ElanBin."
+          }
+          Add-Content -LiteralPath $env:GITHUB_PATH -Value $ElanBin
       - name: Fetch fixed dependencies and their cache
         shell: pwsh
         run: ./setup.ps1
